@@ -1,7 +1,7 @@
 
 let DB;
 async function init(){
-  DB=await (await fetch('data.json')).json();
+  DB = await (await fetch('ZWDB_MASTER_V6.json')).json();
   renderStatus();
 }
 function renderStatus(){
