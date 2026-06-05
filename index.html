@@ -4,78 +4,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Z世界 · Deadline</title>
+<title>Z世界 · 大地图</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="app">
+  <main class="map-screen">
+    <div class="map">
+      <img src="map.jpg" alt="Z世界大地图">
 
-<section id="home" class="page active">
-  <div class="top"><h1>万雾 · 首页</h1><small id="homeDate"></small></div>
-  <div class="card"><h2>本周行程</h2><p>Deadline首次高层会议</p></div>
-  <div class="card"><h2>公司简报</h2><p id="companyBrief"></p></div>
-  <div class="card"><h2>短信</h2><p>闻叙白：有空见面吗？</p></div>
-  <div class="card"><h2>Z世界新闻</h2><div id="newsList"></div></div>
-</section>
+      <div class="hot" style="left:31%;top:13%;width:25%;height:10%" onclick="openPlace('deadline')"></div>
+      <div class="hot" style="left:63%;top:15%;width:31%;height:10%" onclick="openPlace('alliance')"></div>
+      <div class="hot" style="left:3%;top:27%;width:29%;height:10%" onclick="openPlace('takemall')"></div>
+      <div class="hot" style="left:37%;top:40%;width:27%;height:10%" onclick="openPlace('blood')"></div>
+      <div class="hot" style="left:63%;top:41%;width:31%;height:10%" onclick="openPlace('moon')"></div>
+      <div class="hot" style="left:7%;top:50%;width:28%;height:10%" onclick="openPlace('park')"></div>
+      <div class="hot" style="left:36%;top:62%;width:30%;height:9%" onclick="openPlace('airport')"></div>
+      <div class="hot" style="left:68%;top:55%;width:28%;height:19%" onclick="openPlace('fashion')"></div>
+      <div class="hot" style="left:7%;top:74%;width:32%;height:10%" onclick="openPlace('star')"></div>
+      <div class="hot" style="left:65%;top:75%;width:29%;height:12%" onclick="openPlace('private')"></div>
+    </div>
+  </main>
 
-<section id="phone" class="page">
-  <div class="top"><h1>手机</h1><small>短信 / 电话 / 朋友圈</small></div>
-  <div class="card"><h2>未读短信</h2><div id="phoneMsgs"></div></div>
-  <div class="card"><h2>朋友圈</h2><div class="msg">祁临：设计不是讨好，是确立秩序。</div><div class="msg">谢承聿：资本只相信可持续的野心。</div></div>
-</section>
+  <div id="status" class="status"></div>
+  <div id="sheet" class="sheet"></div>
 
-<section id="data" class="page">
-  <div class="top"><h1>数据中心</h1><small>公司 / 男主 / 品牌生态</small></div>
-  <div class="card"><h2>Deadline六维数据</h2><div class="grid" id="dataGrid"></div></div>
-  <div class="card"><h2>核心男主</h2><div class="men" id="menList"></div></div>
-</section>
-
-<section id="map" class="page">
-  <div class="mapwrap">
-    <img src="map.jpg" alt="Z世界大地图">
-    <div class="hot" style="left:31%;top:13%;width:25%;height:12%" onclick="openPlace('deadline')"></div>
-    <div class="hot" style="left:63%;top:15%;width:31%;height:12%" onclick="openPlace('alliance')"></div>
-    <div class="hot" style="left:3%;top:27%;width:29%;height:12%" onclick="openPlace('takemall')"></div>
-    <div class="hot" style="left:37%;top:40%;width:27%;height:12%" onclick="openPlace('blood')"></div>
-    <div class="hot" style="left:63%;top:41%;width:31%;height:12%" onclick="openPlace('moon')"></div>
-    <div class="hot" style="left:7%;top:50%;width:28%;height:11%" onclick="openPlace('park')"></div>
-    <div class="hot" style="left:36%;top:62%;width:30%;height:10%" onclick="openPlace('airport')"></div>
-    <div class="hot" style="left:68%;top:55%;width:28%;height:20%" onclick="openPlace('fashion')"></div>
-    <div class="hot" style="left:7%;top:74%;width:32%;height:11%" onclick="openPlace('star')"></div>
-    <div class="hot" style="left:65%;top:75%;width:29%;height:13%" onclick="openPlace('private')"></div>
-  </div>
-</section>
-
-<section id="schedule" class="page">
-  <div class="top"><h1>行程</h1><small>月度推进 / 周行动</small></div>
-  <div class="card"><h2>1月安排</h2><div id="scheduleList"></div></div>
-</section>
-
-<section id="settings" class="page">
-  <div class="top"><h1>设置</h1><small>存档 / 重置 / 说明</small></div>
-  <div class="card"><h2>存档</h2><p>游戏会自动保存到当前浏览器。</p><div class="item close" onclick="resetGame()">重置游戏</div></div>
-</section>
-
-<div id="sheet" class="sheet"></div>
-
-<section id="event" class="eventPage">
-  <div class="eventHero"><h1 id="eventTitle"></h1></div>
-  <div class="eventBody">
-    <div class="card"><p id="eventText"></p></div>
-    <div id="eventChoices"></div>
-    <div id="eventResult"></div>
-  </div>
-</section>
-
-<nav class="bottom">
-  <button class="navBtn active" data-nav="home" onclick="show('home')">首页</button>
-  <button class="navBtn" data-nav="phone" onclick="show('phone')">手机</button>
-  <button class="navBtn" data-nav="data" onclick="show('data')">数据</button>
-  <button class="navBtn" data-nav="map" onclick="show('map')">地图</button>
-  <button class="navBtn" data-nav="schedule" onclick="show('schedule')">行程</button>
-  <button class="navBtn" data-nav="settings" onclick="show('settings')">设置</button>
-</nav>
-
+  <section id="event" class="event">
+    <div class="eventTop"><h1 id="eventTitle"></h1></div>
+    <div class="eventBody">
+      <div class="card"><p id="eventText"></p></div>
+      <div id="choices"></div>
+      <div id="result"></div>
+    </div>
+  </section>
 </div>
 <script src="game.js"></script>
 </body>
