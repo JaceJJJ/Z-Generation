@@ -1,0 +1,5173 @@
+{
+  "characters": [
+    {
+      "id": "wen_xubai",
+      "name": "闻叙白",
+      "age": 19,
+      "occupation": "闻氏资本继承人",
+      "personality": [
+        "高智商",
+        "绅士",
+        "克制",
+        "占有欲强"
+      ],
+      "coreNeeds": [
+        "确定性",
+        "情感回应"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 10,
+        "hesitation": 80,
+        "rationality": 95
+      },
+      "behaviorRules": [
+        "不会主动越界",
+        "不会无缘无故告白",
+        "不会频繁制造偶遇"
+      ],
+      "currentLocation": "LifeLine公园",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "qi_lin",
+      "name": "祁临",
+      "age": 24,
+      "occupation": "知名设计师",
+      "personality": [
+        "温柔掌控者",
+        "理性",
+        "高修养",
+        "占有欲低"
+      ],
+      "coreNeeds": [
+        "美感认同",
+        "专业尊重"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 5,
+        "hesitation": 60,
+        "rationality": 90
+      },
+      "behaviorRules": [
+        "不会轻易表露情感",
+        "会评估场合后行动",
+        "不会突然情绪化"
+      ],
+      "currentLocation": "Deadline总部",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "xie_chengyu",
+      "name": "谢承聿",
+      "age": 27,
+      "occupation": "Vanta品牌代表",
+      "personality": [
+        "宿敌型",
+        "高修养",
+        "博弈者",
+        "冷静"
+      ],
+      "coreNeeds": [
+        "利益平衡",
+        "长期绑定安全感"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 20,
+        "hesitation": 50,
+        "rationality": 98
+      },
+      "behaviorRules": [
+        "不会轻易示弱",
+        "始终维护底线",
+        "不会随意透露意图"
+      ],
+      "currentLocation": "Vanta",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "pei_ji",
+      "name": "裴寂",
+      "age": 25,
+      "occupation": "自由艺术家",
+      "personality": [
+        "清冷艺术家",
+        "理性",
+        "疏离",
+        "美学极端"
+      ],
+      "coreNeeds": [
+        "创作自由",
+        "美学认可"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 5,
+        "hesitation": 70,
+        "rationality": 95
+      },
+      "behaviorRules": [
+        "不轻易靠近玩家",
+        "不参与资本博弈",
+        "行为符合艺术逻辑"
+      ],
+      "currentLocation": "Moon River电影院",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "liu_anqi",
+      "name": "刘安琪",
+      "age": 26,
+      "occupation": "CFO/金融专家",
+      "personality": [
+        "精明",
+        "理性",
+        "稳重",
+        "谨慎"
+      ],
+      "coreNeeds": [
+        "公司稳定",
+        "风险可控"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 5,
+        "hesitation": 50,
+        "rationality": 98
+      },
+      "behaviorRules": [
+        "不会随意冒险",
+        "只对重要决策表达意见"
+      ],
+      "currentLocation": "Deadline总部",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "cheng_yixing",
+      "name": "程亦行",
+      "age": 28,
+      "occupation": "COO/运营专家",
+      "personality": [
+        "掌控型",
+        "效率导向",
+        "沉稳",
+        "务实"
+      ],
+      "coreNeeds": [
+        "流程顺畅",
+        "团队稳定"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 7,
+        "hesitation": 55,
+        "rationality": 95
+      },
+      "behaviorRules": [
+        "不会偏离计划",
+        "会优先保证团队效率"
+      ],
+      "currentLocation": "Deadline总部",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "liang_yu",
+      "name": "梁渝",
+      "age": 23,
+      "occupation": "新锐设计师",
+      "personality": [
+        "自由奔放",
+        "创意丰富",
+        "略显青涩",
+        "善良"
+      ],
+      "coreNeeds": [
+        "创造空间",
+        "认可与鼓励"
+      ],
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "hiddenStats": {
+        "possess": 3,
+        "hesitation": 60,
+        "rationality": 85
+      },
+      "behaviorRules": [
+        "不擅长商业逻辑",
+        "容易受情绪影响"
+      ],
+      "currentLocation": "Deadline工作室",
+      "status": "空闲",
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "from": "wen_xubai",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 1
+    },
+    {
+      "from": "qi_lin",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 2
+    },
+    {
+      "from": "xie_chengyu",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 3
+    },
+    {
+      "from": "pei_ji",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 4
+    },
+    {
+      "from": "liu_anqi",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 5
+    },
+    {
+      "from": "cheng_yixing",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 6
+    },
+    {
+      "from": "liang_yu",
+      "to": "player_001",
+      "status": "未认识",
+      "firstMeet": null,
+      "romanceStage": 0,
+      "introductionWeek": 7
+    },
+    {
+      "from": "wen_xubai",
+      "to": "qi_lin",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "wen_xubai",
+      "to": "xie_chengyu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "wen_xubai",
+      "to": "pei_ji",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "wen_xubai",
+      "to": "liu_anqi",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "wen_xubai",
+      "to": "cheng_yixing",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "wen_xubai",
+      "to": "liang_yu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "qi_lin",
+      "to": "xie_chengyu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "qi_lin",
+      "to": "pei_ji",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "qi_lin",
+      "to": "liu_anqi",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "qi_lin",
+      "to": "cheng_yixing",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "qi_lin",
+      "to": "liang_yu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "xie_chengyu",
+      "to": "pei_ji",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "xie_chengyu",
+      "to": "liu_anqi",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "xie_chengyu",
+      "to": "cheng_yixing",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "xie_chengyu",
+      "to": "liang_yu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "pei_ji",
+      "to": "liu_anqi",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "pei_ji",
+      "to": "cheng_yixing",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "pei_ji",
+      "to": "liang_yu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "liu_anqi",
+      "to": "cheng_yixing",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "liu_anqi",
+      "to": "liang_yu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    },
+    {
+      "from": "cheng_yixing",
+      "to": "liang_yu",
+      "status": "未建立",
+      "firstMeet": null,
+      "interactionStage": 0
+    }
+  ],
+  "events": [
+    {
+      "eventId": "wen_xubai_intro",
+      "title": "闻叙白 初次出场",
+      "trigger": {
+        "week": 1,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了闻叙白，初次互动将影响你们的关系。"
+    },
+    {
+      "eventId": "qi_lin_intro",
+      "title": "祁临 初次出场",
+      "trigger": {
+        "week": 2,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了祁临，初次互动将影响你们的关系。"
+    },
+    {
+      "eventId": "xie_chengyu_intro",
+      "title": "谢承聿 初次出场",
+      "trigger": {
+        "week": 3,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了谢承聿，初次互动将影响你们的关系。"
+    },
+    {
+      "eventId": "pei_ji_intro",
+      "title": "裴寂 初次出场",
+      "trigger": {
+        "week": 4,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了裴寂，初次互动将影响你们的关系。"
+    },
+    {
+      "eventId": "liu_anqi_intro",
+      "title": "刘安琪 初次出场",
+      "trigger": {
+        "week": 5,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了刘安琪，初次互动将影响你们的关系。"
+    },
+    {
+      "eventId": "cheng_yixing_intro",
+      "title": "程亦行 初次出场",
+      "trigger": {
+        "week": 6,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了程亦行，初次互动将影响你们的关系。"
+    },
+    {
+      "eventId": "liang_yu_intro",
+      "title": "梁渝 初次出场",
+      "trigger": {
+        "week": 7,
+        "location": "随机地点"
+      },
+      "choices": [
+        {
+          "text": "打招呼",
+          "effect": {
+            "trust": 5,
+            "heart": 2
+          }
+        },
+        {
+          "text": "礼貌点头",
+          "effect": {
+            "trust": 2,
+            "heart": 1
+          }
+        },
+        {
+          "text": "忽略",
+          "effect": {
+            "trust": -3,
+            "heart": -1
+          }
+        }
+      ],
+      "description": "本周你在地图上遇见了梁渝，初次互动将影响你们的关系。"
+    }
+  ],
+  "rules": [
+    {
+      "id": "business_rule_01",
+      "rule": "公司总数据计算方式：产品线20% + 代言人20% + 业内人脉15% + 政界支持率15% + 舆论15% + 市场占据15%，确保六维权重均衡。"
+    },
+    {
+      "id": "business_rule_02",
+      "rule": "每月公司营收计算：净利润 = 营收 - 固定成本 - 可变成本。固定成本包括员工工资、门店维护、办公场所、物流、仓储；可变成本包括研发、广告、秀场、明星代言、媒体公关。"
+    },
+    {
+      "id": "business_rule_03",
+      "rule": "签约明星代言需要支付报价，并存在塌房概率。顶流演员报价8000万/年，超模3000万/年，新人200万/年。若人品低于80，每月触发负面新闻的概率存在。"
+    },
+    {
+      "id": "business_rule_04",
+      "rule": "公司晋级条件：无名→小众连续3个月总数据>12000，小众→大众连续6个月总数据>18000，小型→中型依次类推，增加真实经营难度。"
+    },
+    {
+      "id": "business_rule_05",
+      "rule": "董事会成员属性：忠诚、能力、野心，可能触发内鬼、跳槽、夺权、泄密等事件。"
+    },
+    {
+      "id": "business_rule_06",
+      "rule": "媒体系统：各类媒体（Vogue, ELLE, Bazaar）拥有好感度，不同媒体会吹捧、打压或保持中立，影响品牌舆论。"
+    },
+    {
+      "id": "business_rule_07",
+      "rule": "时装周系统：每年2月纽约、3月巴黎、4月米兰、5月伦敦、6月、12月固定举办，玩家争取入场资格可获得品牌曝光与商业机会。"
+    },
+    {
+      "id": "business_rule_08",
+      "rule": "男主行为规则：不可主动越界、不可轻易告白、符合性格设定、真实度低时更难预测其行动。"
+    },
+    {
+      "id": "business_rule_09",
+      "rule": "玩家每次行动会触发随机事件或剧情分支，影响公司、男主属性及关系网。"
+    },
+    {
+      "id": "business_rule_10",
+      "rule": "真实度机制：0-100，表示男主表面行为与真实意图差距，真实度低越难预测，影响恋爱和合作互动。"
+    }
+  ],
+  "world_engine": {
+    "npcSpawnRule": {
+      "sameLocationProbability": 15,
+      "relationshipBonus": true,
+      "businessNeedPriority": true
+    },
+    "companyConflictRule": {
+      "topLuxuryIgnoreUnknown": true,
+      "competitiveMoveProbability": 20
+    },
+    "mediaRule": {
+      "mediaTypes": [
+        "Vogue",
+        "ELLE",
+        "Bazaar"
+      ],
+      "influence": "好感度影响舆论和品牌声誉"
+    },
+    "fashionWeekRule": {
+      "months": [
+        "2月纽约",
+        "3月巴黎",
+        "4月米兰",
+        "5月伦敦",
+        "6月",
+        "12月"
+      ],
+      "requirement": "玩家必须争取入场资格，获得品牌曝光和商业机会"
+    },
+    "playerActionRule": {
+      "maxActionPerWeek": 3,
+      "actionConsumption": "每进入一次地点消耗一次行动"
+    },
+    "randomEventRule": {
+      "triggerProbability": "中",
+      "effectScope": [
+        "公司数据",
+        "男主关系",
+        "媒体舆论"
+      ]
+    }
+  },
+  "media": [
+    {
+      "id": "vogue",
+      "name": "Vogue",
+      "type": "时尚杂志",
+      "goodwill": 50,
+      "stance": "中立",
+      "influence": 90
+    },
+    {
+      "id": "elle",
+      "name": "ELLE",
+      "type": "时尚杂志",
+      "goodwill": 50,
+      "stance": "中立",
+      "influence": 85
+    },
+    {
+      "id": "bazaar",
+      "name": "Bazaar",
+      "type": "时尚杂志",
+      "goodwill": 50,
+      "stance": "中立",
+      "influence": 80
+    },
+    {
+      "id": "wwd",
+      "name": "WWD",
+      "type": "时尚杂志",
+      "goodwill": 50,
+      "stance": "中立",
+      "influence": 75
+    },
+    {
+      "id": "fashion_weekly",
+      "name": "Fashion Weekly",
+      "type": "时尚杂志",
+      "goodwill": 50,
+      "stance": "中立",
+      "influence": 70
+    }
+  ],
+  "board_members": [
+    {
+      "company": "Aurora",
+      "members": [
+        {
+          "role": "CEO",
+          "name": "万雾",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "COO",
+          "name": "程亦行",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CFO",
+          "name": "刘安琪",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CMO",
+          "name": "许明薇",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "祁临",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        }
+      ]
+    },
+    {
+      "company": "Nocturne",
+      "members": [
+        {
+          "role": "CEO",
+          "name": "顾知言",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "COO",
+          "name": "张晨",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CFO",
+          "name": "林涛",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CMO",
+          "name": "沈砚川",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "裴寂",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        }
+      ]
+    },
+    {
+      "company": "Helix",
+      "members": [
+        {
+          "role": "CEO",
+          "name": "黎薇",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "COO",
+          "name": "陈锐",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CFO",
+          "name": "孙哲",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CMO",
+          "name": "方景",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "周昊",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        }
+      ]
+    },
+    {
+      "company": "Vanta",
+      "members": [
+        {
+          "role": "CEO",
+          "name": "谢承聿",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "COO",
+          "name": "程亦行",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CFO",
+          "name": "刘安琪",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CMO",
+          "name": "许明薇",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "祁临",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        }
+      ]
+    },
+    {
+      "company": "Eclipse",
+      "members": [
+        {
+          "role": "CEO",
+          "name": "黎薇",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "COO",
+          "name": "陈锐",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CFO",
+          "name": "孙哲",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CMO",
+          "name": "方景",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "周昊",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        }
+      ]
+    },
+    {
+      "company": "Seraph",
+      "members": [
+        {
+          "role": "CEO",
+          "name": "方蕾",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "COO",
+          "name": "林涛",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CFO",
+          "name": "张晨",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CMO",
+          "name": "沈砚川",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "裴寂",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常",
+          "traits": {
+            "权力偏好": 50,
+            "危险偏好": 50,
+            "艺术偏好": 50,
+            "安静偏好": 50
+          }
+        }
+      ]
+    },
+    {
+      "company": "Rosier",
+      "members": []
+    },
+    {
+      "company": "Hush",
+      "members": []
+    },
+    {
+      "company": "Meridian",
+      "members": []
+    },
+    {
+      "company": "Solstice",
+      "members": []
+    },
+    {
+      "company": "Bloom",
+      "members": []
+    },
+    {
+      "company": "Morrow",
+      "members": []
+    },
+    {
+      "company": "Kestrel",
+      "members": []
+    },
+    {
+      "company": "Ivory",
+      "members": []
+    },
+    {
+      "company": "PureDay",
+      "members": []
+    },
+    {
+      "company": "DailyMuse",
+      "members": []
+    },
+    {
+      "company": "OneWeek",
+      "members": []
+    },
+    {
+      "company": "Clover",
+      "members": []
+    },
+    {
+      "company": "Deadline",
+      "members": []
+    },
+    {
+      "company": "Reverie",
+      "members": []
+    },
+    {
+      "company": "Obsidian",
+      "members": []
+    },
+    {
+      "company": "Tide",
+      "members": []
+    },
+    {
+      "company": "Canvas",
+      "members": []
+    },
+    {
+      "company": "Ember",
+      "members": []
+    }
+  ],
+  "celebrities": [
+    {
+      "id": "lu_chen",
+      "name": "陆沉",
+      "age": 34,
+      "type": "电影演员",
+      "tags": [
+        "国民级影帝"
+      ],
+      "attributes": {
+        "face": 88,
+        "personality": 91,
+        "fashion": 86,
+        "morality": 95,
+        "fame": 98,
+        "works": 99,
+        "reputation": 94
+      },
+      "price": 120000000,
+      "risk": 3,
+      "description": "极难签约",
+      "preferredLocations": [
+        "Blood",
+        "TakeMall",
+        "FashionWeek"
+      ],
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "jiang_xu",
+      "name": "江叙",
+      "age": 24,
+      "type": "爱豆",
+      "tags": [
+        "顶流男团中心位"
+      ],
+      "attributes": {
+        "face": 98,
+        "personality": 72,
+        "fashion": 95,
+        "morality": 78,
+        "fame": 99,
+        "works": 80,
+        "reputation": 75
+      },
+      "price": 90000000,
+      "risk": 35,
+      "description": "带货极强，容易塌房",
+      "preferredLocations": [
+        "TakeMall",
+        "FashionWeek",
+        "Moon River"
+      ],
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    },
+    {
+      "id": "song_wan",
+      "name": "宋晚",
+      "age": 27,
+      "type": "超模",
+      "tags": [
+        "国际超模"
+      ],
+      "attributes": {
+        "face": 92,
+        "personality": 83,
+        "fashion": 99,
+        "morality": 90,
+        "fame": 88,
+        "works": 85,
+        "reputation": 89
+      },
+      "price": 50000000,
+      "risk": 8,
+      "description": "提升时尚权重",
+      "preferredLocations": [
+        "TakeMall",
+        "FashionWeek",
+        "Moon River"
+      ],
+      "traits": {
+        "权力偏好": 50,
+        "危险偏好": 50,
+        "艺术偏好": 50,
+        "安静偏好": 50
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "deadline_hq",
+      "name": "Deadline总部",
+      "type": "玩家基地",
+      "subLocations": [
+        "工作室",
+        "创始人办公室",
+        "董事会议室",
+        "管理层办公区",
+        "普通办公区",
+        "样衣间",
+        "顶楼露台",
+        "公司咖啡厅"
+      ],
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "brand_union",
+      "name": "品牌联盟中心",
+      "type": "公司总部聚集",
+      "subLocations": [
+        "Aurora总部",
+        "Nocturne总部",
+        "Helix总部",
+        "Vanta总部",
+        "Eclipse总部",
+        "Seraph总部"
+      ],
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "takemall",
+      "name": "TakeMall",
+      "type": "全球商业中心",
+      "subLocations": [
+        "顶奢馆",
+        "高奢馆",
+        "新锐设计馆",
+        "艺术展馆",
+        "拍卖中心",
+        "黑卡会员区",
+        "天台餐厅"
+      ],
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "blood_bar",
+      "name": "Blood酒吧",
+      "type": "权贵酒吧",
+      "subLocations": [
+        "大厅",
+        "卡座区",
+        "VIP包厢",
+        "Black Room",
+        "地下酒窖",
+        "老板办公室"
+      ],
+      "eventPool": [
+        "资本交易",
+        "媒体偷拍",
+        "商业合作",
+        "投资谈判",
+        "地下赌博局"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "moon_river",
+      "name": "Moon River影院",
+      "type": "艺术影院",
+      "subLocations": [
+        "主影厅",
+        "VIP影厅",
+        "独立电影区",
+        "导演沙龙",
+        "天台放映区"
+      ],
+      "eventPool": [
+        "首映礼",
+        "导演沙龙",
+        "艺术投资",
+        "纪录片发布"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "lifeline_park",
+      "name": "LifeLine公园",
+      "type": "城市公园",
+      "subLocations": [
+        "湖畔",
+        "玻璃温室",
+        "长桥",
+        "草坪",
+        "夜跑区"
+      ],
+      "eventPool": [
+        "偶遇",
+        "散步交谈",
+        "灵感事件",
+        "私人会面"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "international_airport",
+      "name": "国际机场",
+      "type": "交通枢纽",
+      "subLocations": [
+        "国际航站楼",
+        "VIP候机厅",
+        "私人飞机区"
+      ],
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "fashion_week",
+      "name": "Z Fashion Week",
+      "type": "时装周主场",
+      "subLocations": [
+        "主秀场",
+        "后台",
+        "媒体区",
+        "买手区",
+        "嘉宾区"
+      ],
+      "eventPool": [
+        "主秀场活动",
+        "后台协调",
+        "媒体接待",
+        "买手考察",
+        "嘉宾互动"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "star_entertainment",
+      "name": "星光娱乐",
+      "type": "艺人系统中心",
+      "subLocations": [
+        "艺人部",
+        "经纪部",
+        "宣传部",
+        "练习生中心"
+      ],
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    },
+    {
+      "id": "residential_area",
+      "name": "私人住宅区",
+      "type": "住宅区",
+      "subLocations": [
+        "万雾住宅",
+        "闻叙白住宅",
+        "顾知言住宅",
+        "谢承聿住宅",
+        "祁临工作室",
+        "裴寂画室",
+        "沈砚川摄影棚",
+        "林昼公寓"
+      ],
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      }
+    }
+  ],
+  "companies": {
+    "Aurora": {
+      "tier": "顶奢",
+      "annualRevenue": 12000000000,
+      "board": [
+        {
+          "role": "CEO",
+          "name": "万雾",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "COO",
+          "name": "程亦行",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CFO",
+          "name": "刘安琪",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CMO",
+          "name": "许明薇",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "祁临",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        }
+      ],
+      "mediaRelations": {
+        "Vogue": 80,
+        "ELLE": 75,
+        "Bazaar": 70
+      },
+      "competitors": [
+        "Nocturne",
+        "Helix"
+      ]
+    },
+    "Nocturne": {
+      "tier": "顶奢",
+      "annualRevenue": 11000000000,
+      "board": [
+        {
+          "role": "CEO",
+          "name": "顾知言",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "COO",
+          "name": "张晨",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CFO",
+          "name": "林涛",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CMO",
+          "name": "沈砚川",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "裴寂",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        }
+      ],
+      "mediaRelations": {
+        "Vogue": 70,
+        "ELLE": 80,
+        "Bazaar": 65
+      },
+      "competitors": [
+        "Aurora",
+        "Helix"
+      ]
+    },
+    "Helix": {
+      "tier": "顶奢",
+      "annualRevenue": 10500000000,
+      "board": [
+        {
+          "role": "CEO",
+          "name": "黎薇",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "COO",
+          "name": "陈锐",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CFO",
+          "name": "孙哲",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CMO",
+          "name": "方景",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "周昊",
+          "ability": 95,
+          "loyalty": 90,
+          "ambition": 60,
+          "positionStatus": "正常"
+        }
+      ],
+      "mediaRelations": {
+        "Vogue": 65,
+        "ELLE": 70,
+        "Bazaar": 85
+      },
+      "competitors": [
+        "Aurora",
+        "Nocturne"
+      ]
+    },
+    "Vanta": {
+      "tier": "高奢",
+      "annualRevenue": 7000000000,
+      "board": [
+        {
+          "role": "CEO",
+          "name": "谢承聿",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "COO",
+          "name": "程亦行",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CFO",
+          "name": "刘安琪",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CMO",
+          "name": "许明薇",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "祁临",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        }
+      ],
+      "mediaRelations": {
+        "Vogue": 60,
+        "ELLE": 60,
+        "Bazaar": 65
+      },
+      "competitors": [
+        "Aurora",
+        "Nocturne",
+        "Helix"
+      ]
+    },
+    "Eclipse": {
+      "tier": "高奢",
+      "annualRevenue": 7000000000,
+      "board": [
+        {
+          "role": "CEO",
+          "name": "谢承聿",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "COO",
+          "name": "程亦行",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CFO",
+          "name": "刘安琪",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CMO",
+          "name": "许明薇",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "祁临",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        }
+      ],
+      "mediaRelations": {
+        "Vogue": 60,
+        "ELLE": 60,
+        "Bazaar": 65
+      },
+      "competitors": [
+        "Aurora",
+        "Nocturne",
+        "Helix"
+      ]
+    },
+    "Seraph": {
+      "tier": "高奢",
+      "annualRevenue": 7000000000,
+      "board": [
+        {
+          "role": "CEO",
+          "name": "谢承聿",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "COO",
+          "name": "程亦行",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CFO",
+          "name": "刘安琪",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CMO",
+          "name": "许明薇",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        },
+        {
+          "role": "CreativeDirector",
+          "name": "祁临",
+          "ability": 90,
+          "loyalty": 85,
+          "ambition": 65,
+          "positionStatus": "正常"
+        }
+      ],
+      "mediaRelations": {
+        "Vogue": 60,
+        "ELLE": 60,
+        "Bazaar": 65
+      },
+      "competitors": [
+        "Aurora",
+        "Nocturne",
+        "Helix"
+      ]
+    },
+    "Rosier": {
+      "tier": "轻奢",
+      "annualRevenue": 4000000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 50,
+        "ELLE": 50,
+        "Bazaar": 50
+      },
+      "competitors": [
+        "Vanta",
+        "Eclipse",
+        "Seraph"
+      ]
+    },
+    "Hush": {
+      "tier": "轻奢",
+      "annualRevenue": 4000000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 50,
+        "ELLE": 50,
+        "Bazaar": 50
+      },
+      "competitors": [
+        "Vanta",
+        "Eclipse",
+        "Seraph"
+      ]
+    },
+    "Meridian": {
+      "tier": "轻奢",
+      "annualRevenue": 4000000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 50,
+        "ELLE": 50,
+        "Bazaar": 50
+      },
+      "competitors": [
+        "Vanta",
+        "Eclipse",
+        "Seraph"
+      ]
+    },
+    "Solstice": {
+      "tier": "轻奢",
+      "annualRevenue": 4000000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 50,
+        "ELLE": 50,
+        "Bazaar": 50
+      },
+      "competitors": [
+        "Vanta",
+        "Eclipse",
+        "Seraph"
+      ]
+    },
+    "Deadline": {
+      "tier": "小众",
+      "annualRevenue": 1500000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 40,
+        "ELLE": 40,
+        "Bazaar": 40
+      },
+      "competitors": [
+        "Rosier",
+        "Hush",
+        "Meridian",
+        "Solstice"
+      ]
+    },
+    "Reverie": {
+      "tier": "小众",
+      "annualRevenue": 1500000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 40,
+        "ELLE": 40,
+        "Bazaar": 40
+      },
+      "competitors": [
+        "Rosier",
+        "Hush",
+        "Meridian",
+        "Solstice"
+      ]
+    },
+    "Obsidian": {
+      "tier": "小众",
+      "annualRevenue": 1500000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 40,
+        "ELLE": 40,
+        "Bazaar": 40
+      },
+      "competitors": [
+        "Rosier",
+        "Hush",
+        "Meridian",
+        "Solstice"
+      ]
+    },
+    "Tide": {
+      "tier": "小众",
+      "annualRevenue": 1500000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 40,
+        "ELLE": 40,
+        "Bazaar": 40
+      },
+      "competitors": [
+        "Rosier",
+        "Hush",
+        "Meridian",
+        "Solstice"
+      ]
+    },
+    "Canvas": {
+      "tier": "无名",
+      "annualRevenue": 500000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 30,
+        "ELLE": 30,
+        "Bazaar": 30
+      },
+      "competitors": [
+        "Deadline",
+        "Reverie",
+        "Obsidian",
+        "Tide"
+      ]
+    },
+    "Ember": {
+      "tier": "无名",
+      "annualRevenue": 500000000,
+      "board": [],
+      "mediaRelations": {
+        "Vogue": 30,
+        "ELLE": 30,
+        "Bazaar": 30
+      },
+      "competitors": [
+        "Deadline",
+        "Reverie",
+        "Obsidian",
+        "Tide"
+      ]
+    }
+  },
+  "social_network": [
+    {
+      "id": "npc_001",
+      "name": "NPC_001",
+      "age": 21,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_018",
+          "type": "ally",
+          "intensity": 86,
+          "trust": 87,
+          "respect": 91,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_039",
+          "type": "ally",
+          "intensity": 51,
+          "trust": 67,
+          "respect": 99,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_028",
+          "type": "ally",
+          "intensity": 38,
+          "trust": 60,
+          "respect": 67,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_037",
+          "type": "rival",
+          "intensity": 37,
+          "trust": 6,
+          "respect": 48,
+          "history": "曾在时装周活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 27,
+      "warmth": 86,
+      "aggressiveness": 4,
+      "expressiveness": 35,
+      "power": 42,
+      "danger": 5,
+      "art": 78,
+      "quiet": 86,
+      "businessDriven": 32,
+      "emotionDriven": 92,
+      "curiosityDriven": 93,
+      "role_type": "maleLead",
+      "experience": "NPC_001参与过艺术展"
+    },
+    {
+      "id": "npc_002",
+      "name": "NPC_002",
+      "age": 22,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_011",
+          "type": "friend",
+          "intensity": 92,
+          "trust": 96,
+          "respect": 33,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_027",
+          "type": "rival",
+          "intensity": 73,
+          "trust": 86,
+          "respect": 13,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "ally",
+          "intensity": 74,
+          "trust": 88,
+          "respect": 20,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_014",
+          "type": "partner",
+          "intensity": 26,
+          "trust": 81,
+          "respect": 7,
+          "history": "曾在媒体活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 48,
+      "warmth": 90,
+      "aggressiveness": 19,
+      "expressiveness": 28,
+      "power": 35,
+      "danger": 6,
+      "art": 76,
+      "quiet": 93,
+      "businessDriven": 32,
+      "emotionDriven": 70,
+      "curiosityDriven": 87,
+      "role_type": "maleLead",
+      "experience": "NPC_002参与过国际时装周"
+    },
+    {
+      "id": "npc_003",
+      "name": "NPC_003",
+      "age": 23,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_019",
+          "type": "friend",
+          "intensity": 39,
+          "trust": 37,
+          "respect": 39,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_023",
+          "type": "competitor",
+          "intensity": 49,
+          "trust": 5,
+          "respect": 16,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_029",
+          "type": "ally",
+          "intensity": 22,
+          "trust": 59,
+          "respect": 62,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 26,
+      "warmth": 71,
+      "aggressiveness": 8,
+      "expressiveness": 39,
+      "power": 35,
+      "danger": 10,
+      "art": 79,
+      "quiet": 95,
+      "businessDriven": 42,
+      "emotionDriven": 76,
+      "curiosityDriven": 73,
+      "role_type": "maleLead",
+      "experience": "NPC_003曾经在Helix担任高层"
+    },
+    {
+      "id": "npc_004",
+      "name": "NPC_004",
+      "age": 24,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_026",
+          "type": "competitor",
+          "intensity": 97,
+          "trust": 59,
+          "respect": 63,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_010",
+          "type": "competitor",
+          "intensity": 84,
+          "trust": 44,
+          "respect": 98,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_005",
+          "type": "partner",
+          "intensity": 56,
+          "trust": 41,
+          "respect": 6,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_028",
+          "type": "ally",
+          "intensity": 75,
+          "trust": 89,
+          "respect": 44,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_030",
+          "type": "friend",
+          "intensity": 56,
+          "trust": 73,
+          "respect": 22,
+          "history": "曾在媒体活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 36,
+      "warmth": 92,
+      "aggressiveness": 19,
+      "expressiveness": 46,
+      "power": 53,
+      "danger": 3,
+      "art": 74,
+      "quiet": 93,
+      "businessDriven": 49,
+      "emotionDriven": 77,
+      "curiosityDriven": 77,
+      "role_type": "maleLead",
+      "experience": "NPC_004曾处理过商业并购"
+    },
+    {
+      "id": "npc_005",
+      "name": "NPC_005",
+      "age": 25,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_020",
+          "type": "competitor",
+          "intensity": 75,
+          "trust": 81,
+          "respect": 38,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_032",
+          "type": "ally",
+          "intensity": 67,
+          "trust": 89,
+          "respect": 26,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_025",
+          "type": "competitor",
+          "intensity": 55,
+          "trust": 16,
+          "respect": 9,
+          "history": "共同参与过公益活动"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 30,
+      "warmth": 91,
+      "aggressiveness": 4,
+      "expressiveness": 49,
+      "power": 36,
+      "danger": 10,
+      "art": 75,
+      "quiet": 96,
+      "businessDriven": 38,
+      "emotionDriven": 94,
+      "curiosityDriven": 70,
+      "role_type": "maleLead",
+      "experience": "NPC_005曾处理过媒体公关危机"
+    },
+    {
+      "id": "npc_006",
+      "name": "NPC_006",
+      "age": 26,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_034",
+          "type": "ally",
+          "intensity": 54,
+          "trust": 84,
+          "respect": 49,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_030",
+          "type": "competitor",
+          "intensity": 69,
+          "trust": 3,
+          "respect": 99,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_001",
+          "type": "ally",
+          "intensity": 25,
+          "trust": 32,
+          "respect": 2,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_031",
+          "type": "rival",
+          "intensity": 24,
+          "trust": 97,
+          "respect": 26,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 42,
+      "warmth": 86,
+      "aggressiveness": 6,
+      "expressiveness": 43,
+      "power": 39,
+      "danger": 5,
+      "art": 73,
+      "quiet": 82,
+      "businessDriven": 50,
+      "emotionDriven": 81,
+      "curiosityDriven": 83,
+      "role_type": "maleLead",
+      "experience": "NPC_006参与过资本投资"
+    },
+    {
+      "id": "npc_007",
+      "name": "NPC_007",
+      "age": 27,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_032",
+          "type": "friend",
+          "intensity": 56,
+          "trust": 2,
+          "respect": 5,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_010",
+          "type": "competitor",
+          "intensity": 82,
+          "trust": 70,
+          "respect": 21,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_016",
+          "type": "rival",
+          "intensity": 86,
+          "trust": 44,
+          "respect": 80,
+          "history": "共同参与过公益活动"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 23,
+      "warmth": 95,
+      "aggressiveness": 10,
+      "expressiveness": 37,
+      "power": 53,
+      "danger": 5,
+      "art": 78,
+      "quiet": 88,
+      "businessDriven": 42,
+      "emotionDriven": 75,
+      "curiosityDriven": 76,
+      "role_type": "maleLead",
+      "experience": "NPC_007曾处理过代言签约"
+    },
+    {
+      "id": "npc_008",
+      "name": "NPC_008",
+      "age": 28,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_024",
+          "type": "rival",
+          "intensity": 58,
+          "trust": 86,
+          "respect": 78,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_003",
+          "type": "competitor",
+          "intensity": 28,
+          "trust": 19,
+          "respect": 57,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_015",
+          "type": "rival",
+          "intensity": 29,
+          "trust": 16,
+          "respect": 92,
+          "history": "曾在时装周活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 88,
+      "warmth": 43,
+      "aggressiveness": 59,
+      "expressiveness": 72,
+      "power": 84,
+      "danger": 89,
+      "art": 20,
+      "quiet": 11,
+      "businessDriven": 91,
+      "emotionDriven": 22,
+      "curiosityDriven": 31,
+      "role_type": "competitor",
+      "experience": "NPC_008参与过国际时装周"
+    },
+    {
+      "id": "npc_009",
+      "name": "NPC_009",
+      "age": 29,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_029",
+          "type": "rival",
+          "intensity": 44,
+          "trust": 57,
+          "respect": 98,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_028",
+          "type": "friend",
+          "intensity": 76,
+          "trust": 6,
+          "respect": 48,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_027",
+          "type": "rival",
+          "intensity": 52,
+          "trust": 49,
+          "respect": 44,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 89,
+      "warmth": 11,
+      "aggressiveness": 72,
+      "expressiveness": 61,
+      "power": 87,
+      "danger": 92,
+      "art": 36,
+      "quiet": 12,
+      "businessDriven": 92,
+      "emotionDriven": 27,
+      "curiosityDriven": 32,
+      "role_type": "competitor",
+      "experience": "NPC_009曾经在Deadline担任高层"
+    },
+    {
+      "id": "npc_010",
+      "name": "NPC_010",
+      "age": 30,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_016",
+          "type": "ally",
+          "intensity": 60,
+          "trust": 35,
+          "respect": 19,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_023",
+          "type": "friend",
+          "intensity": 55,
+          "trust": 10,
+          "respect": 95,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_006",
+          "type": "competitor",
+          "intensity": 25,
+          "trust": 39,
+          "respect": 91,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_001",
+          "type": "friend",
+          "intensity": 59,
+          "trust": 46,
+          "respect": 69,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_018",
+          "type": "ally",
+          "intensity": 23,
+          "trust": 65,
+          "respect": 15,
+          "history": "共同参与过幕后项目"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 60,
+      "warmth": 22,
+      "aggressiveness": 51,
+      "expressiveness": 56,
+      "power": 95,
+      "danger": 84,
+      "art": 44,
+      "quiet": 38,
+      "businessDriven": 90,
+      "emotionDriven": 21,
+      "curiosityDriven": 23,
+      "role_type": "competitor",
+      "experience": "NPC_010曾处理过媒体公关危机"
+    },
+    {
+      "id": "npc_011",
+      "name": "NPC_011",
+      "age": 31,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_002",
+          "type": "competitor",
+          "intensity": 13,
+          "trust": 4,
+          "respect": 34,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_017",
+          "type": "partner",
+          "intensity": 28,
+          "trust": 82,
+          "respect": 92,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_003",
+          "type": "ally",
+          "intensity": 76,
+          "trust": 57,
+          "respect": 28,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_008",
+          "type": "ally",
+          "intensity": 16,
+          "trust": 61,
+          "respect": 40,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_009",
+          "type": "friend",
+          "intensity": 36,
+          "trust": 7,
+          "respect": 61,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 75,
+      "warmth": 15,
+      "aggressiveness": 56,
+      "expressiveness": 50,
+      "power": 89,
+      "danger": 73,
+      "art": 39,
+      "quiet": 38,
+      "businessDriven": 88,
+      "emotionDriven": 10,
+      "curiosityDriven": 41,
+      "role_type": "competitor",
+      "experience": "NPC_011曾处理过代言签约"
+    },
+    {
+      "id": "npc_012",
+      "name": "NPC_012",
+      "age": 32,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_008",
+          "type": "ally",
+          "intensity": 97,
+          "trust": 2,
+          "respect": 61,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_016",
+          "type": "ally",
+          "intensity": 89,
+          "trust": 3,
+          "respect": 20,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_026",
+          "type": "rival",
+          "intensity": 15,
+          "trust": 76,
+          "respect": 43,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_035",
+          "type": "competitor",
+          "intensity": 30,
+          "trust": 67,
+          "respect": 75,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 65,
+      "warmth": 10,
+      "aggressiveness": 62,
+      "expressiveness": 54,
+      "power": 80,
+      "danger": 74,
+      "art": 33,
+      "quiet": 36,
+      "businessDriven": 81,
+      "emotionDriven": 37,
+      "curiosityDriven": 30,
+      "role_type": "competitor",
+      "experience": "NPC_012曾处理过商业并购"
+    },
+    {
+      "id": "npc_013",
+      "name": "NPC_013",
+      "age": 33,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_029",
+          "type": "rival",
+          "intensity": 15,
+          "trust": 10,
+          "respect": 86,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_030",
+          "type": "friend",
+          "intensity": 31,
+          "trust": 10,
+          "respect": 8,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_034",
+          "type": "partner",
+          "intensity": 62,
+          "trust": 82,
+          "respect": 79,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_022",
+          "type": "competitor",
+          "intensity": 12,
+          "trust": 35,
+          "respect": 77,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 67,
+      "warmth": 32,
+      "aggressiveness": 58,
+      "expressiveness": 40,
+      "power": 89,
+      "danger": 88,
+      "art": 25,
+      "quiet": 26,
+      "businessDriven": 82,
+      "emotionDriven": 36,
+      "curiosityDriven": 40,
+      "role_type": "competitor",
+      "experience": "NPC_013参与过艺术展"
+    },
+    {
+      "id": "npc_014",
+      "name": "NPC_014",
+      "age": 34,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_001",
+          "type": "friend",
+          "intensity": 11,
+          "trust": 40,
+          "respect": 80,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_003",
+          "type": "competitor",
+          "intensity": 11,
+          "trust": 71,
+          "respect": 21,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_021",
+          "type": "rival",
+          "intensity": 31,
+          "trust": 73,
+          "respect": 41,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_008",
+          "type": "ally",
+          "intensity": 42,
+          "trust": 42,
+          "respect": 36,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 77,
+      "warmth": 16,
+      "aggressiveness": 99,
+      "expressiveness": 65,
+      "power": 98,
+      "danger": 84,
+      "art": 30,
+      "quiet": 2,
+      "businessDriven": 100,
+      "emotionDriven": 38,
+      "curiosityDriven": 48,
+      "role_type": "competitor",
+      "experience": "NPC_014参与过艺术展"
+    },
+    {
+      "id": "npc_015",
+      "name": "NPC_015",
+      "age": 35,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_010",
+          "type": "competitor",
+          "intensity": 79,
+          "trust": 21,
+          "respect": 78,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_032",
+          "type": "competitor",
+          "intensity": 15,
+          "trust": 67,
+          "respect": 43,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_027",
+          "type": "ally",
+          "intensity": 47,
+          "trust": 20,
+          "respect": 89,
+          "history": "曾在时装周活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 84,
+      "warmth": 34,
+      "aggressiveness": 79,
+      "expressiveness": 62,
+      "power": 81,
+      "danger": 84,
+      "art": 15,
+      "quiet": 23,
+      "businessDriven": 91,
+      "emotionDriven": 12,
+      "curiosityDriven": 40,
+      "role_type": "competitor",
+      "experience": "NPC_015参与过艺术展"
+    },
+    {
+      "id": "npc_016",
+      "name": "NPC_016",
+      "age": 36,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_031",
+          "type": "competitor",
+          "intensity": 31,
+          "trust": 7,
+          "respect": 80,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_011",
+          "type": "rival",
+          "intensity": 30,
+          "trust": 51,
+          "respect": 93,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_021",
+          "type": "competitor",
+          "intensity": 81,
+          "trust": 77,
+          "respect": 91,
+          "history": "共同参与过公益活动"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 75,
+      "warmth": 47,
+      "aggressiveness": 67,
+      "expressiveness": 70,
+      "power": 87,
+      "danger": 62,
+      "art": 26,
+      "quiet": 17,
+      "businessDriven": 87,
+      "emotionDriven": 34,
+      "curiosityDriven": 39,
+      "role_type": "competitor",
+      "experience": "NPC_016曾经在Vanta担任高层"
+    },
+    {
+      "id": "npc_017",
+      "name": "NPC_017",
+      "age": 37,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_031",
+          "type": "rival",
+          "intensity": 88,
+          "trust": 41,
+          "respect": 16,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_009",
+          "type": "ally",
+          "intensity": 89,
+          "trust": 71,
+          "respect": 80,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "competitor",
+          "intensity": 40,
+          "trust": 61,
+          "respect": 67,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_015",
+          "type": "friend",
+          "intensity": 45,
+          "trust": 53,
+          "respect": 40,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 69,
+      "warmth": 22,
+      "aggressiveness": 60,
+      "expressiveness": 54,
+      "power": 81,
+      "danger": 60,
+      "art": 24,
+      "quiet": 5,
+      "businessDriven": 99,
+      "emotionDriven": 33,
+      "curiosityDriven": 32,
+      "role_type": "competitor",
+      "experience": "NPC_017曾经在Nocturne担任高层"
+    },
+    {
+      "id": "npc_018",
+      "name": "NPC_018",
+      "age": 38,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_031",
+          "type": "rival",
+          "intensity": 21,
+          "trust": 3,
+          "respect": 40,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_025",
+          "type": "ally",
+          "intensity": 49,
+          "trust": 23,
+          "respect": 26,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_039",
+          "type": "rival",
+          "intensity": 96,
+          "trust": 5,
+          "respect": 9,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_040",
+          "type": "ally",
+          "intensity": 50,
+          "trust": 75,
+          "respect": 19,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_036",
+          "type": "ally",
+          "intensity": 17,
+          "trust": 16,
+          "respect": 43,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 58,
+      "warmth": 61,
+      "aggressiveness": 38,
+      "expressiveness": 69,
+      "power": 62,
+      "danger": 10,
+      "art": 52,
+      "quiet": 84,
+      "businessDriven": 63,
+      "emotionDriven": 33,
+      "curiosityDriven": 57,
+      "role_type": "partner",
+      "experience": "NPC_018曾经在Deadline担任高层"
+    },
+    {
+      "id": "npc_019",
+      "name": "NPC_019",
+      "age": 39,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_037",
+          "type": "rival",
+          "intensity": 14,
+          "trust": 61,
+          "respect": 18,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_007",
+          "type": "partner",
+          "intensity": 54,
+          "trust": 76,
+          "respect": 44,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_021",
+          "type": "friend",
+          "intensity": 83,
+          "trust": 77,
+          "respect": 74,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_026",
+          "type": "partner",
+          "intensity": 24,
+          "trust": 9,
+          "respect": 15,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_034",
+          "type": "rival",
+          "intensity": 62,
+          "trust": 41,
+          "respect": 2,
+          "history": "曾在时装周活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 42,
+      "warmth": 71,
+      "aggressiveness": 38,
+      "expressiveness": 47,
+      "power": 50,
+      "danger": 15,
+      "art": 54,
+      "quiet": 59,
+      "businessDriven": 89,
+      "emotionDriven": 57,
+      "curiosityDriven": 51,
+      "role_type": "partner",
+      "experience": "NPC_019参与过国际时装周"
+    },
+    {
+      "id": "npc_020",
+      "name": "NPC_020",
+      "age": 20,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_017",
+          "type": "competitor",
+          "intensity": 93,
+          "trust": 24,
+          "respect": 14,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_023",
+          "type": "competitor",
+          "intensity": 26,
+          "trust": 26,
+          "respect": 51,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_004",
+          "type": "competitor",
+          "intensity": 19,
+          "trust": 40,
+          "respect": 83,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_039",
+          "type": "competitor",
+          "intensity": 99,
+          "trust": 60,
+          "respect": 43,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_038",
+          "type": "rival",
+          "intensity": 37,
+          "trust": 44,
+          "respect": 48,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 66,
+      "warmth": 54,
+      "aggressiveness": 18,
+      "expressiveness": 70,
+      "power": 76,
+      "danger": 41,
+      "art": 55,
+      "quiet": 67,
+      "businessDriven": 72,
+      "emotionDriven": 44,
+      "curiosityDriven": 55,
+      "role_type": "partner",
+      "experience": "NPC_020曾经在Nocturne担任高层"
+    },
+    {
+      "id": "npc_021",
+      "name": "NPC_021",
+      "age": 21,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_032",
+          "type": "ally",
+          "intensity": 100,
+          "trust": 56,
+          "respect": 57,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "friend",
+          "intensity": 61,
+          "trust": 65,
+          "respect": 27,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_012",
+          "type": "partner",
+          "intensity": 77,
+          "trust": 96,
+          "respect": 17,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 44,
+      "warmth": 69,
+      "aggressiveness": 24,
+      "expressiveness": 59,
+      "power": 67,
+      "danger": 41,
+      "art": 42,
+      "quiet": 57,
+      "businessDriven": 65,
+      "emotionDriven": 49,
+      "curiosityDriven": 68,
+      "role_type": "partner",
+      "experience": "NPC_021参与过艺术展"
+    },
+    {
+      "id": "npc_022",
+      "name": "NPC_022",
+      "age": 22,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_036",
+          "type": "competitor",
+          "intensity": 33,
+          "trust": 72,
+          "respect": 4,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_012",
+          "type": "rival",
+          "intensity": 63,
+          "trust": 83,
+          "respect": 73,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_037",
+          "type": "competitor",
+          "intensity": 81,
+          "trust": 73,
+          "respect": 22,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_004",
+          "type": "friend",
+          "intensity": 53,
+          "trust": 57,
+          "respect": 80,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "partner",
+          "intensity": 67,
+          "trust": 10,
+          "respect": 43,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 71,
+      "warmth": 83,
+      "aggressiveness": 15,
+      "expressiveness": 65,
+      "power": 75,
+      "danger": 11,
+      "art": 57,
+      "quiet": 85,
+      "businessDriven": 72,
+      "emotionDriven": 66,
+      "curiosityDriven": 58,
+      "role_type": "partner",
+      "experience": "NPC_022曾经在Vanta担任高层"
+    },
+    {
+      "id": "npc_023",
+      "name": "NPC_023",
+      "age": 23,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_021",
+          "type": "partner",
+          "intensity": 25,
+          "trust": 14,
+          "respect": 46,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_006",
+          "type": "friend",
+          "intensity": 33,
+          "trust": 23,
+          "respect": 84,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_022",
+          "type": "ally",
+          "intensity": 71,
+          "trust": 36,
+          "respect": 52,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_005",
+          "type": "ally",
+          "intensity": 88,
+          "trust": 71,
+          "respect": 27,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_001",
+          "type": "competitor",
+          "intensity": 98,
+          "trust": 55,
+          "respect": 1,
+          "history": "曾在媒体活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 68,
+      "warmth": 66,
+      "aggressiveness": 29,
+      "expressiveness": 43,
+      "power": 54,
+      "danger": 48,
+      "art": 63,
+      "quiet": 69,
+      "businessDriven": 73,
+      "emotionDriven": 59,
+      "curiosityDriven": 58,
+      "role_type": "partner",
+      "experience": "NPC_023曾经在Helix担任高层"
+    },
+    {
+      "id": "npc_024",
+      "name": "NPC_024",
+      "age": 24,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_036",
+          "type": "competitor",
+          "intensity": 69,
+          "trust": 33,
+          "respect": 87,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_026",
+          "type": "competitor",
+          "intensity": 86,
+          "trust": 35,
+          "respect": 61,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_007",
+          "type": "ally",
+          "intensity": 55,
+          "trust": 45,
+          "respect": 31,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_004",
+          "type": "partner",
+          "intensity": 24,
+          "trust": 46,
+          "respect": 100,
+          "history": "曾在时装周活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 82,
+      "warmth": 70,
+      "aggressiveness": 15,
+      "expressiveness": 79,
+      "power": 17,
+      "danger": 6,
+      "art": 40,
+      "quiet": 56,
+      "businessDriven": 27,
+      "emotionDriven": 65,
+      "curiosityDriven": 65,
+      "role_type": "friend",
+      "experience": "NPC_024曾经在Nocturne担任高层"
+    },
+    {
+      "id": "npc_025",
+      "name": "NPC_025",
+      "age": 25,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_031",
+          "type": "friend",
+          "intensity": 55,
+          "trust": 97,
+          "respect": 18,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_005",
+          "type": "rival",
+          "intensity": 90,
+          "trust": 11,
+          "respect": 80,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_009",
+          "type": "friend",
+          "intensity": 53,
+          "trust": 84,
+          "respect": 44,
+          "history": "曾在媒体活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 72,
+      "warmth": 84,
+      "aggressiveness": 23,
+      "expressiveness": 43,
+      "power": 15,
+      "danger": 9,
+      "art": 73,
+      "quiet": 92,
+      "businessDriven": 36,
+      "emotionDriven": 65,
+      "curiosityDriven": 82,
+      "role_type": "friend",
+      "experience": "NPC_025曾处理过代言签约"
+    },
+    {
+      "id": "npc_026",
+      "name": "NPC_026",
+      "age": 26,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_016",
+          "type": "rival",
+          "intensity": 52,
+          "trust": 54,
+          "respect": 60,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_012",
+          "type": "friend",
+          "intensity": 97,
+          "trust": 54,
+          "respect": 24,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_006",
+          "type": "ally",
+          "intensity": 61,
+          "trust": 96,
+          "respect": 90,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_027",
+          "type": "competitor",
+          "intensity": 68,
+          "trust": 91,
+          "respect": 3,
+          "history": "共同参与过幕后项目"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 80,
+      "warmth": 80,
+      "aggressiveness": 18,
+      "expressiveness": 40,
+      "power": 23,
+      "danger": 3,
+      "art": 61,
+      "quiet": 86,
+      "businessDriven": 52,
+      "emotionDriven": 84,
+      "curiosityDriven": 71,
+      "role_type": "friend",
+      "experience": "NPC_026参与过资本投资"
+    },
+    {
+      "id": "npc_027",
+      "name": "NPC_027",
+      "age": 27,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_002",
+          "type": "ally",
+          "intensity": 43,
+          "trust": 15,
+          "respect": 65,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_012",
+          "type": "partner",
+          "intensity": 32,
+          "trust": 53,
+          "respect": 24,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_040",
+          "type": "competitor",
+          "intensity": 25,
+          "trust": 78,
+          "respect": 43,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "competitor",
+          "intensity": 54,
+          "trust": 49,
+          "respect": 62,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_029",
+          "type": "friend",
+          "intensity": 35,
+          "trust": 79,
+          "respect": 55,
+          "history": "曾在媒体活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 68,
+      "warmth": 62,
+      "aggressiveness": 26,
+      "expressiveness": 73,
+      "power": 11,
+      "danger": 0,
+      "art": 61,
+      "quiet": 93,
+      "businessDriven": 56,
+      "emotionDriven": 53,
+      "curiosityDriven": 67,
+      "role_type": "friend",
+      "experience": "NPC_027曾处理过代言签约"
+    },
+    {
+      "id": "npc_028",
+      "name": "NPC_028",
+      "age": 28,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_025",
+          "type": "partner",
+          "intensity": 74,
+          "trust": 83,
+          "respect": 70,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_023",
+          "type": "competitor",
+          "intensity": 75,
+          "trust": 33,
+          "respect": 39,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_026",
+          "type": "competitor",
+          "intensity": 89,
+          "trust": 8,
+          "respect": 47,
+          "history": "共同参与过幕后项目"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 64,
+      "warmth": 83,
+      "aggressiveness": 4,
+      "expressiveness": 72,
+      "power": 13,
+      "danger": 20,
+      "art": 45,
+      "quiet": 78,
+      "businessDriven": 56,
+      "emotionDriven": 62,
+      "curiosityDriven": 55,
+      "role_type": "friend",
+      "experience": "NPC_028曾经在Deadline担任高层"
+    },
+    {
+      "id": "npc_029",
+      "name": "NPC_029",
+      "age": 29,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_008",
+          "type": "competitor",
+          "intensity": 34,
+          "trust": 17,
+          "respect": 26,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_012",
+          "type": "partner",
+          "intensity": 64,
+          "trust": 22,
+          "respect": 30,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "partner",
+          "intensity": 11,
+          "trust": 41,
+          "respect": 70,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 89,
+      "warmth": 69,
+      "aggressiveness": 29,
+      "expressiveness": 44,
+      "power": 19,
+      "danger": 20,
+      "art": 54,
+      "quiet": 40,
+      "businessDriven": 55,
+      "emotionDriven": 55,
+      "curiosityDriven": 51,
+      "role_type": "friend",
+      "experience": "NPC_029曾经在Deadline担任高层"
+    },
+    {
+      "id": "npc_030",
+      "name": "NPC_030",
+      "age": 30,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_040",
+          "type": "competitor",
+          "intensity": 41,
+          "trust": 29,
+          "respect": 52,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_019",
+          "type": "ally",
+          "intensity": 47,
+          "trust": 97,
+          "respect": 82,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_034",
+          "type": "friend",
+          "intensity": 78,
+          "trust": 6,
+          "respect": 3,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_031",
+          "type": "partner",
+          "intensity": 87,
+          "trust": 26,
+          "respect": 53,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_028",
+          "type": "ally",
+          "intensity": 54,
+          "trust": 95,
+          "respect": 27,
+          "history": "曾在投资洽谈中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 74,
+      "warmth": 80,
+      "aggressiveness": 13,
+      "expressiveness": 47,
+      "power": 39,
+      "danger": 13,
+      "art": 42,
+      "quiet": 79,
+      "businessDriven": 50,
+      "emotionDriven": 76,
+      "curiosityDriven": 68,
+      "role_type": "friend",
+      "experience": "NPC_030曾处理过代言签约"
+    },
+    {
+      "id": "npc_031",
+      "name": "NPC_031",
+      "age": 31,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_010",
+          "type": "competitor",
+          "intensity": 48,
+          "trust": 15,
+          "respect": 76,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_014",
+          "type": "ally",
+          "intensity": 84,
+          "trust": 74,
+          "respect": 41,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "friend",
+          "intensity": 33,
+          "trust": 22,
+          "respect": 61,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_013",
+          "type": "competitor",
+          "intensity": 40,
+          "trust": 2,
+          "respect": 13,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_015",
+          "type": "partner",
+          "intensity": 23,
+          "trust": 12,
+          "respect": 66,
+          "history": "共同参与过秀场"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 77,
+      "warmth": 46,
+      "aggressiveness": 31,
+      "expressiveness": 64,
+      "power": 52,
+      "danger": 45,
+      "art": 70,
+      "quiet": 42,
+      "businessDriven": 81,
+      "emotionDriven": 75,
+      "curiosityDriven": 65,
+      "role_type": "celebrity",
+      "experience": "NPC_031曾处理过商业并购"
+    },
+    {
+      "id": "npc_032",
+      "name": "NPC_032",
+      "age": 32,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_035",
+          "type": "competitor",
+          "intensity": 33,
+          "trust": 15,
+          "respect": 51,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_028",
+          "type": "friend",
+          "intensity": 87,
+          "trust": 55,
+          "respect": 82,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_007",
+          "type": "rival",
+          "intensity": 73,
+          "trust": 0,
+          "respect": 64,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_024",
+          "type": "ally",
+          "intensity": 24,
+          "trust": 28,
+          "respect": 70,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_039",
+          "type": "competitor",
+          "intensity": 15,
+          "trust": 48,
+          "respect": 56,
+          "history": "曾在媒体活动中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 76,
+      "warmth": 44,
+      "aggressiveness": 12,
+      "expressiveness": 81,
+      "power": 37,
+      "danger": 44,
+      "art": 89,
+      "quiet": 27,
+      "businessDriven": 40,
+      "emotionDriven": 37,
+      "curiosityDriven": 51,
+      "role_type": "celebrity",
+      "experience": "NPC_032参与过资本投资"
+    },
+    {
+      "id": "npc_033",
+      "name": "NPC_033",
+      "age": 33,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_032",
+          "type": "ally",
+          "intensity": 46,
+          "trust": 79,
+          "respect": 100,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_027",
+          "type": "competitor",
+          "intensity": 39,
+          "trust": 1,
+          "respect": 4,
+          "history": "共同参与过公益活动"
+        },
+        {
+          "target_id": "npc_034",
+          "type": "rival",
+          "intensity": 66,
+          "trust": 50,
+          "respect": 26,
+          "history": "曾在投资洽谈中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 64,
+      "warmth": 46,
+      "aggressiveness": 46,
+      "expressiveness": 43,
+      "power": 39,
+      "danger": 63,
+      "art": 62,
+      "quiet": 32,
+      "businessDriven": 83,
+      "emotionDriven": 75,
+      "curiosityDriven": 54,
+      "role_type": "celebrity",
+      "experience": "NPC_033曾经在Vanta担任高层"
+    },
+    {
+      "id": "npc_034",
+      "name": "NPC_034",
+      "age": 34,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_035",
+          "type": "competitor",
+          "intensity": 66,
+          "trust": 50,
+          "respect": 16,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_007",
+          "type": "partner",
+          "intensity": 55,
+          "trust": 62,
+          "respect": 36,
+          "history": "曾在媒体活动中有过交集"
+        },
+        {
+          "target_id": "npc_028",
+          "type": "competitor",
+          "intensity": 49,
+          "trust": 34,
+          "respect": 31,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_021",
+          "type": "competitor",
+          "intensity": 70,
+          "trust": 85,
+          "respect": 67,
+          "history": "曾在投资洽谈中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 59,
+      "warmth": 41,
+      "aggressiveness": 49,
+      "expressiveness": 88,
+      "power": 61,
+      "danger": 33,
+      "art": 90,
+      "quiet": 20,
+      "businessDriven": 31,
+      "emotionDriven": 41,
+      "curiosityDriven": 59,
+      "role_type": "celebrity",
+      "experience": "NPC_034参与过国际时装周"
+    },
+    {
+      "id": "npc_035",
+      "name": "NPC_035",
+      "age": 35,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_029",
+          "type": "ally",
+          "intensity": 82,
+          "trust": 29,
+          "respect": 6,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_022",
+          "type": "ally",
+          "intensity": 91,
+          "trust": 86,
+          "respect": 2,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_007",
+          "type": "competitor",
+          "intensity": 46,
+          "trust": 100,
+          "respect": 64,
+          "history": "共同参与过品牌推广"
+        },
+        {
+          "target_id": "npc_023",
+          "type": "friend",
+          "intensity": 28,
+          "trust": 52,
+          "respect": 94,
+          "history": "共同参与过品牌推广"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 81,
+      "warmth": 64,
+      "aggressiveness": 19,
+      "expressiveness": 83,
+      "power": 52,
+      "danger": 20,
+      "art": 65,
+      "quiet": 25,
+      "businessDriven": 65,
+      "emotionDriven": 65,
+      "curiosityDriven": 88,
+      "role_type": "celebrity",
+      "experience": "NPC_035参与过国际时装周"
+    },
+    {
+      "id": "npc_036",
+      "name": "NPC_036",
+      "age": 36,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_040",
+          "type": "competitor",
+          "intensity": 29,
+          "trust": 100,
+          "respect": 49,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_017",
+          "type": "competitor",
+          "intensity": 78,
+          "trust": 78,
+          "respect": 14,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_014",
+          "type": "competitor",
+          "intensity": 45,
+          "trust": 100,
+          "respect": 90,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_039",
+          "type": "friend",
+          "intensity": 41,
+          "trust": 14,
+          "respect": 87,
+          "history": "共同参与过幕后项目"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 69,
+      "warmth": 48,
+      "aggressiveness": 16,
+      "expressiveness": 84,
+      "power": 46,
+      "danger": 60,
+      "art": 56,
+      "quiet": 58,
+      "businessDriven": 53,
+      "emotionDriven": 32,
+      "curiosityDriven": 90,
+      "role_type": "celebrity",
+      "experience": "NPC_036参与过资本投资"
+    },
+    {
+      "id": "npc_037",
+      "name": "NPC_037",
+      "age": 37,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_035",
+          "type": "competitor",
+          "intensity": 12,
+          "trust": 84,
+          "respect": 17,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_029",
+          "type": "friend",
+          "intensity": 75,
+          "trust": 4,
+          "respect": 72,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_008",
+          "type": "rival",
+          "intensity": 26,
+          "trust": 98,
+          "respect": 36,
+          "history": "曾在投资洽谈中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 90,
+      "warmth": 70,
+      "aggressiveness": 40,
+      "expressiveness": 40,
+      "power": 62,
+      "danger": 23,
+      "art": 98,
+      "quiet": 36,
+      "businessDriven": 45,
+      "emotionDriven": 40,
+      "curiosityDriven": 78,
+      "role_type": "celebrity",
+      "experience": "NPC_037曾处理过商业并购"
+    },
+    {
+      "id": "npc_038",
+      "name": "NPC_038",
+      "age": 38,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_023",
+          "type": "competitor",
+          "intensity": 61,
+          "trust": 85,
+          "respect": 82,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_004",
+          "type": "partner",
+          "intensity": 35,
+          "trust": 35,
+          "respect": 77,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_035",
+          "type": "ally",
+          "intensity": 95,
+          "trust": 88,
+          "respect": 69,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_034",
+          "type": "partner",
+          "intensity": 19,
+          "trust": 95,
+          "respect": 15,
+          "history": "共同参与过幕后项目"
+        },
+        {
+          "target_id": "npc_009",
+          "type": "ally",
+          "intensity": 100,
+          "trust": 100,
+          "respect": 58,
+          "history": "共同参与过秀场"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 71,
+      "warmth": 32,
+      "aggressiveness": 43,
+      "expressiveness": 45,
+      "power": 36,
+      "danger": 66,
+      "art": 70,
+      "quiet": 46,
+      "businessDriven": 41,
+      "emotionDriven": 63,
+      "curiosityDriven": 78,
+      "role_type": "celebrity",
+      "experience": "NPC_038曾经在Aurora担任高层"
+    },
+    {
+      "id": "npc_039",
+      "name": "NPC_039",
+      "age": 39,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_007",
+          "type": "competitor",
+          "intensity": 10,
+          "trust": 4,
+          "respect": 30,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_029",
+          "type": "friend",
+          "intensity": 66,
+          "trust": 19,
+          "respect": 27,
+          "history": "曾在时装周活动中有过交集"
+        },
+        {
+          "target_id": "npc_034",
+          "type": "competitor",
+          "intensity": 19,
+          "trust": 47,
+          "respect": 15,
+          "history": "曾在商业谈判中有过交集"
+        },
+        {
+          "target_id": "npc_023",
+          "type": "ally",
+          "intensity": 27,
+          "trust": 29,
+          "respect": 49,
+          "history": "曾在投资洽谈中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 71,
+      "warmth": 79,
+      "aggressiveness": 32,
+      "expressiveness": 50,
+      "power": 62,
+      "danger": 52,
+      "art": 58,
+      "quiet": 70,
+      "businessDriven": 74,
+      "emotionDriven": 77,
+      "curiosityDriven": 75,
+      "role_type": "celebrity",
+      "experience": "NPC_039曾处理过代言签约"
+    },
+    {
+      "id": "npc_040",
+      "name": "NPC_040",
+      "age": 20,
+      "occupation": "未知",
+      "tier": "未知",
+      "personality": {
+        "sociality": 50,
+        "warmth": 50,
+        "aggressiveness": 50,
+        "expressiveness": 50
+      },
+      "preferences": {
+        "power": 50,
+        "danger": 50,
+        "art": 50,
+        "quiet": 50
+      },
+      "drivers": {
+        "businessDriven": 50,
+        "emotionDriven": 50,
+        "curiosityDriven": 50
+      },
+      "preferredLocations": [],
+      "avoidLocations": [],
+      "socialNetwork": [
+        {
+          "target_id": "npc_021",
+          "type": "friend",
+          "intensity": 96,
+          "trust": 36,
+          "respect": 33,
+          "history": "共同参与过秀场"
+        },
+        {
+          "target_id": "npc_036",
+          "type": "competitor",
+          "intensity": 63,
+          "trust": 43,
+          "respect": 5,
+          "history": "曾在投资洽谈中有过交集"
+        },
+        {
+          "target_id": "npc_020",
+          "type": "rival",
+          "intensity": 40,
+          "trust": 80,
+          "respect": 85,
+          "history": "曾在商业谈判中有过交集"
+        }
+      ],
+      "currentInfluence": 0,
+      "sociality": 71,
+      "warmth": 36,
+      "aggressiveness": 21,
+      "expressiveness": 51,
+      "power": 33,
+      "danger": 28,
+      "art": 50,
+      "quiet": 52,
+      "businessDriven": 76,
+      "emotionDriven": 80,
+      "curiosityDriven": 80,
+      "role_type": "celebrity",
+      "experience": "NPC_040曾处理过代言签约"
+    }
+  ]
+}
