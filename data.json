@@ -1,0 +1,46 @@
+{
+  "companies": [
+    {
+      "name": "Deadline总部",
+      "level": "小众",
+      "cash": 30,
+      "events": [
+        "工作室",
+        "会议室",
+        "办公室",
+        "咖啡厅",
+        "管理区",
+        "顶楼露台"
+      ]
+    },
+    {
+      "name": "TakeMall",
+      "level": "轻奢",
+      "cash": 50,
+      "events": [
+        "顶奢馆",
+        "艺术展区",
+        "会员层"
+      ]
+    },
+    {
+      "name": "Blood酒吧",
+      "level": "大众",
+      "cash": 20,
+      "events": [
+        "大厅",
+        "二楼卡座",
+        "VIP包厢"
+      ]
+    }
+  ],
+  "male_leads": [
+    {
+      "name": "闻叙白",
+      "age": 19,
+      "charm": 80,
+      "trust": 70,
+      "possess": 50
+    }
+  ]
+}

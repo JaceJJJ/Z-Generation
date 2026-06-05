@@ -1,0 +1,14 @@
+
+body{margin:0;background:#090b12;color:#fff;font-family:-apple-system,sans-serif;}
+.page{display:none;min-height:100vh;padding-bottom:80px;}
+.active{display:block;}
+.top{padding:16px;background:#111827;position:sticky;top:0;}
+.card{margin:12px;padding:14px;background:#171b26;border-radius:16px;}
+.bottom{position:fixed;bottom:0;left:0;right:0;background:#111827;display:flex;}
+.bottom button{flex:1;padding:14px;background:none;color:white;border:none;}
+.mapwrap{position:relative;}
+.mapwrap img{width:100%;display:block;}
+.hot{position:absolute;background:rgba(0,0,0,.01);cursor:pointer;}
+.sheet{display:none;position:fixed;left:0;right:0;bottom:0;background:#151a24;border-radius:20px 20px 0 0;padding:16px;max-height:60vh;overflow:auto;}
+.item{background:#222838;padding:12px;border-radius:12px;margin:8px 0;}
+button{padding:10px 14px;border:none;border-radius:10px;}
