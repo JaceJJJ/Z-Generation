@@ -44,6 +44,22 @@
       "preferredLocations": [
         "LifeLine公园",
         "Moon River影院"
+      ],
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "maleLead",
+      "relationLabelOptions": [
+        "未结识",
+        "初遇",
+        "熟悉",
+        "暧昧",
+        "恋爱",
+        "分手",
+        "仇视",
+        "挚爱"
       ]
     },
     {
@@ -87,6 +103,22 @@
       "preferredLocations": [
         "LifeLine公园",
         "Moon River影院"
+      ],
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "maleLead",
+      "relationLabelOptions": [
+        "未结识",
+        "初遇",
+        "熟悉",
+        "暧昧",
+        "恋爱",
+        "分手",
+        "仇视",
+        "挚爱"
       ]
     },
     {
@@ -126,7 +158,23 @@
         "危险偏好": 75,
         "艺术偏好": 20,
         "安静偏好": 15
-      }
+      },
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "maleLead",
+      "relationLabelOptions": [
+        "未结识",
+        "初遇",
+        "熟悉",
+        "暧昧",
+        "恋爱",
+        "分手",
+        "仇视",
+        "挚爱"
+      ]
     },
     {
       "id": "pei_ji",
@@ -172,6 +220,22 @@
       "preferredLocations": [
         "LifeLine公园",
         "Moon River影院"
+      ],
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "maleLead",
+      "relationLabelOptions": [
+        "未结识",
+        "初遇",
+        "熟悉",
+        "暧昧",
+        "恋爱",
+        "分手",
+        "仇视",
+        "挚爱"
       ]
     },
     {
@@ -214,6 +278,22 @@
       "preferredLocations": [
         "LifeLine公园",
         "Moon River影院"
+      ],
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "core",
+      "relationLabelOptions": [
+        "未结识",
+        "路人",
+        "竞争对手",
+        "合作伙伴",
+        "同行",
+        "下属",
+        "厌恶",
+        "朋友"
       ]
     },
     {
@@ -252,7 +332,23 @@
         "危险偏好": 25,
         "艺术偏好": 40,
         "安静偏好": 55
-      }
+      },
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "core",
+      "relationLabelOptions": [
+        "未结识",
+        "路人",
+        "竞争对手",
+        "合作伙伴",
+        "同行",
+        "下属",
+        "厌恶",
+        "朋友"
+      ]
     },
     {
       "id": "liang_yu",
@@ -290,7 +386,23 @@
         "危险偏好": 15,
         "艺术偏好": 92,
         "安静偏好": 60
-      }
+      },
+      "affectionToPlayer": 0,
+      "relationToPlayer": "未结识",
+      "metPlayer": false,
+      "firstMeetWeek": null,
+      "lastInteractionSummary": "",
+      "category": "core",
+      "relationLabelOptions": [
+        "未结识",
+        "路人",
+        "竞争对手",
+        "合作伙伴",
+        "同行",
+        "下属",
+        "厌恶",
+        "朋友"
+      ]
     }
   ],
   "relationships": [
@@ -300,7 +412,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 1
+      "introductionWeek": 1,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "qi_lin",
@@ -308,7 +423,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 2
+      "introductionWeek": 2,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "xie_chengyu",
@@ -316,7 +434,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 3
+      "introductionWeek": 3,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "pei_ji",
@@ -324,7 +445,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 4
+      "introductionWeek": 4,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "liu_anqi",
@@ -332,7 +456,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 5
+      "introductionWeek": 5,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "cheng_yixing",
@@ -340,7 +467,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 6
+      "introductionWeek": 6,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "liang_yu",
@@ -348,7 +478,10 @@
       "status": "未认识",
       "firstMeet": null,
       "romanceStage": 0,
-      "introductionWeek": 7
+      "introductionWeek": 7,
+      "affection": 0,
+      "relationLabel": "未结识",
+      "met": false
     },
     {
       "from": "wen_xubai",
@@ -5380,5 +5513,49 @@
       "netProfitFormula": "netProfit = revenue - fixedCosts - variableCosts"
     },
     "promotionRule": "晋级需要连续多月达标，不允许单月爆发直接晋级。"
+  },
+  "ui_system_v9": {
+    "topStatus": "地图顶部覆盖层实时显示Z年X月第X周和行动次数，移除钻石体力时间天气语义。",
+    "companyBadge": "地图左上角覆盖层实时显示Deadline公司等级和声望。",
+    "bottomNav": [
+      "手机",
+      "好感",
+      "大地图",
+      "行业",
+      "设置"
+    ],
+    "principle": "删除第二套HTML底栏，功能热区绑定到地图原生UI区域。"
+  },
+  "time_system_v9": {
+    "monthsPerYear": 12,
+    "weeksPerMonth": 4,
+    "actionsPerWeek": 3,
+    "consumeRule": "只有进入不同地点扣除行动点；同一地点内多次剧情互动、选择、自由输入、手机/好感/行业/设置不扣点。",
+    "weekAdvance": "行动点耗尽自动进入下一周并重置3点。",
+    "monthSummary": "第4周结束后进入下月并触发月度总结：公司数据对比、营收支出、管理变动、代言人、其他公司升降、Z世界大新闻。"
+  },
+  "relationship_system_v9": {
+    "maleLeadLabels": [
+      "未结识",
+      "初遇",
+      "熟悉",
+      "暧昧",
+      "恋爱",
+      "分手",
+      "仇视",
+      "挚爱"
+    ],
+    "coreCharacterLabels": [
+      "未结识",
+      "路人",
+      "竞争对手",
+      "合作伙伴",
+      "同行",
+      "下属",
+      "厌恶",
+      "朋友"
+    ],
+    "firstMeetRule": "遇到未结识人物时，AI必须生成首次见面剧情，不得默认认识。",
+    "favorPage": "好感界面分男主区/核心人物区；显示好感和当前关系。"
   }
 }

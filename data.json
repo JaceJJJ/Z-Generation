@@ -13,7 +13,10 @@
     "company": "Deadline",
     "mode": "AI驱动事业+恋爱+商战模拟",
     "news": [],
-    "log": []
+    "log": [],
+    "lastEnteredPlace": null,
+    "visitedPlacesThisWeek": [],
+    "reputation": 14500
   },
   "places": {
     "deadline": {
@@ -772,5 +775,119 @@
       }
     }
   },
-  "masterFile": "ZWDB_MASTER_V8_FINAL.json"
+  "masterFile": "ZWDB_MASTER_V8_FINAL.json",
+  "relationshipRuntime": {
+    "wen_xubai": {
+      "name": "闻叙白",
+      "category": "maleLead",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 19,
+      "height": "未知",
+      "occupation": "闻氏资本继承人",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "LifeLine公园"
+    },
+    "qi_lin": {
+      "name": "祁临",
+      "category": "maleLead",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 24,
+      "height": "未知",
+      "occupation": "知名设计师",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "Deadline总部"
+    },
+    "xie_chengyu": {
+      "name": "谢承聿",
+      "category": "maleLead",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 27,
+      "height": "未知",
+      "occupation": "Vanta品牌代表",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "Vanta"
+    },
+    "pei_ji": {
+      "name": "裴寂",
+      "category": "maleLead",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 25,
+      "height": "未知",
+      "occupation": "自由艺术家",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "Moon River电影院"
+    },
+    "liu_anqi": {
+      "name": "刘安琪",
+      "category": "core",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 26,
+      "height": "未知",
+      "occupation": "CFO/金融专家",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "Deadline总部"
+    },
+    "cheng_yixing": {
+      "name": "程亦行",
+      "category": "core",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 28,
+      "height": "未知",
+      "occupation": "COO/运营专家",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "Deadline总部"
+    },
+    "liang_yu": {
+      "name": "梁渝",
+      "category": "core",
+      "affection": 0,
+      "relation": "未结识",
+      "met": false,
+      "age": 23,
+      "height": "未知",
+      "occupation": "新锐设计师",
+      "visibleStats": {
+        "heart": 0,
+        "trust": 0,
+        "miss": 0
+      },
+      "currentLocation": "Deadline工作室"
+    }
+  }
 }
