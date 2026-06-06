@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Z世界 · Deadline</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <section id="mapPage" class="page active">
+    <div class="map-wrap">
+      <img src="map.jpg" alt="Z世界大地图" class="map-img" onerror="document.body.classList.add('no-map')">
+      <button class="hot h-deadline" onclick="openPlace('deadline')"></button>
+      <button class="hot h-brand" onclick="openPlace('brand_union')"></button>
+      <button class="hot h-takemall" onclick="openPlace('takemall')"></button>
+      <button class="hot h-blood" onclick="openPlace('blood')"></button>
+      <button class="hot h-moon" onclick="openPlace('moon')"></button>
+      <button class="hot h-park" onclick="openPlace('park')"></button>
+      <button class="hot h-airport" onclick="openPlace('airport')"></button>
+      <button class="hot h-fashion" onclick="openPlace('fashion')"></button>
+      <button class="hot h-star" onclick="openPlace('star')"></button>
+      <button class="hot h-private" onclick="openPlace('private')"></button>
+    </div>
+  </section>
+
+  <section id="phonePage" class="page">
+    <div class="panel">
+      <h1>手机</h1>
+      <div class="grid2">
+        <button onclick="phoneAI('短信')">短信</button>
+        <button onclick="phoneAI('电话')">电话</button>
+        <button onclick="phoneAI('朋友圈')">朋友圈</button>
+        <button onclick="phoneAI('Z世界新闻')">Z世界新闻</button>
+      </div>
+      <div id="phoneOutput" class="storyBox"></div>
+    </div>
+  </section>
+
+  <section id="companyPage" class="page">
+    <div class="panel">
+      <h1>Deadline品牌主页</h1>
+      <div id="companyStats"></div>
+      <div class="grid2">
+        <button onclick="companyAction('研发新品')">研发新品</button>
+        <button onclick="companyAction('媒体公关')">媒体公关</button>
+        <button onclick="companyAction('代言人谈判')">代言人谈判</button>
+        <button onclick="companyAction('董事会会议')">董事会会议</button>
+      </div>
+      <div id="companyOutput" class="storyBox"></div>
+    </div>
+  </section>
+
+  <section id="settingsPage" class="page">
+    <div class="panel">
+      <h1>玩家设置 / AI助手</h1>
+      <div class="storyBox">这里用于查看存档、历史记录、向AI询问当前局势。</div>
+      <textarea id="askInput" placeholder="例如：分析Deadline本月最应该做什么"></textarea>
+      <button onclick="askGM()">询问Z世界AI</button>
+      <button onclick="resetSave()">重置本地存档</button>
+      <div id="askOutput" class="storyBox"></div>
+    </div>
+  </section>
+
+  <div id="status" class="status"></div>
+  <nav class="bottomNav">
+    <button onclick="showPage('phonePage')">手机</button>
+    <button onclick="showPage('mapPage')">大地图</button>
+    <button onclick="showPage('companyPage')">品牌主页</button>
+    <button onclick="showPage('settingsPage')">设置</button>
+  </nav>
+
+  <div id="sheet" class="sheet"></div>
+
+  <section id="event" class="event">
+    <div class="eventTop">
+      <button onclick="closeEvent()">返回</button>
+      <h1 id="eventTitle">事件</h1>
+    </div>
+    <div class="eventBody">
+      <div id="eventText" class="storyBox"></div>
+      <div id="choices"></div>
+      <div id="result"></div>
+      <div class="inputRow">
+        <input id="freeInput" placeholder="自由输入行动/回复/命令" />
+        <button onclick="sendFreeAction()">发送</button>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

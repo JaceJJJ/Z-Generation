@@ -1,0 +1,71 @@
+{
+  "version": "Z_GENERATION_SAVE_V8",
+  "state": {
+    "date": "Z年1月 第1周",
+    "year": 1,
+    "month": 1,
+    "week": 1,
+    "actionsLeft": 3,
+    "currentLocation": "Z世界大地图",
+    "cash": 3000000000,
+    "brandTier": "小众",
+    "brandScore": 14500,
+    "company": "Deadline",
+    "mode": "AI驱动事业+恋爱+商战模拟",
+    "news": [],
+    "log": []
+  },
+  "relationships": {
+    "wen_xubai": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    },
+    "qi_lin": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    },
+    "xie_chengyu": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    },
+    "pei_ji": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    },
+    "liu_anqi": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    },
+    "cheng_yixing": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    },
+    "liang_yu": {
+      "heart": 0,
+      "trust": 0,
+      "miss": 0
+    }
+  },
+  "business": {
+    "Deadline": {
+      "productLine": 4200,
+      "endorsement": 1800,
+      "industryNetwork": 2200,
+      "governmentSupport": 1200,
+      "publicOpinion": 1900,
+      "marketShare": 1600,
+      "monthlyRevenue": 40000000,
+      "fixedCosts": 18000000,
+      "variableCosts": 12000000,
+      "netProfit": 10000000,
+      "cash": 3000000000
+    }
+  },
+  "history": []
+}

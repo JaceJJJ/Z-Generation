@@ -1,0 +1,23 @@
+:root{--bg:#05070b;--panel:#101722;--panel2:#182132;--line:#2d3548;--text:#f6f7fb;--muted:#aeb6c8;--gold:#d8bf82;--purple:#8c6cff}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+.app{max-width:430px;margin:0 auto;min-height:100vh;background:#060912;position:relative;overflow:hidden}
+.page{display:none;min-height:100vh;padding-bottom:76px}.page.active{display:block}
+.map-wrap{position:relative;width:100%;min-height:100vh;background:#05070b}.map-img{width:100%;display:block}
+.no-map .map-wrap:before{content:"map.jpg未找到。请保留你原项目的实景地图map.jpg。";display:block;padding:40px 20px;line-height:1.8;color:#fff}
+.hot{position:absolute;border:0;background:rgba(255,255,255,.01);border-radius:15px}.hot:active{background:rgba(216,191,130,.18)}
+.h-deadline{left:31%;top:13%;width:25%;height:10%}.h-brand{left:63%;top:15%;width:31%;height:10%}.h-takemall{left:3%;top:27%;width:29%;height:10%}.h-blood{left:37%;top:40%;width:27%;height:10%}.h-moon{left:63%;top:41%;width:31%;height:10%}.h-park{left:7%;top:50%;width:28%;height:10%}.h-airport{left:36%;top:62%;width:30%;height:9%}.h-fashion{left:68%;top:55%;width:28%;height:19%}.h-star{left:7%;top:74%;width:32%;height:10%}.h-private{left:65%;top:75%;width:29%;height:12%}
+.status{position:fixed;left:50%;transform:translateX(-50%);bottom:66px;max-width:398px;width:calc(100% - 24px);z-index:12;background:rgba(8,12,20,.88);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:9px 10px;display:flex;justify-content:space-between;gap:6px;color:#d8deea;font-size:11px}
+.bottomNav{position:fixed;left:50%;transform:translateX(-50%);bottom:0;max-width:430px;width:100%;height:58px;background:#0b101b;border-top:1px solid #20293b;display:grid;grid-template-columns:repeat(4,1fr);z-index:20}
+.bottomNav button{background:transparent;color:#dce2ef;border:0;font-size:12px}
+.panel{padding:18px 14px}.panel h1{font-size:24px;margin:0 0 14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.grid2 button,.panel button{background:#1b2436;border:1px solid #34405a;color:#fff;border-radius:14px;padding:13px;line-height:1.4}
+.sheet{display:none;position:fixed;left:50%;transform:translateX(-50%);bottom:0;max-width:430px;width:100%;background:var(--panel);border:1px solid var(--line);border-radius:24px 24px 0 0;padding:16px;z-index:30;max-height:74vh;overflow:auto;box-shadow:0 -20px 60px rgba(0,0,0,.65)}
+.sheet h2{margin:0 0 8px;font-size:22px}.desc{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 12px}
+.item,.choice{background:var(--panel2);border:1px solid #303a52;border-radius:14px;padding:13px;margin:8px 0;color:#fff;line-height:1.55}.item small{display:block;color:var(--muted);margin-top:5px;line-height:1.5}.item:active,.choice:active{transform:scale(.99);background:#25304a}.aiBtn{background:linear-gradient(135deg,#2b2347,#1f324a);border-color:#6d5ccc}.close{background:#332536;border-color:#5e405a;color:#ffd9e3}
+.event{display:none;position:fixed;left:50%;transform:translateX(-50%);top:0;bottom:0;max-width:430px;width:100%;background:#080c15;z-index:40;overflow:auto}.event.active{display:block}
+.eventTop{padding:18px 16px;background:linear-gradient(180deg,#1b2436,#0a0f19);border-bottom:1px solid #273145}.eventTop button{background:#20283a;border:1px solid #303a52;color:#fff;border-radius:12px;padding:8px 12px}.eventTop h1{margin:12px 0 0;font-size:23px}.eventBody{padding:14px 14px 100px}
+.storyBox{white-space:pre-wrap;background:#151b27;border:1px solid #20293a;border-radius:18px;padding:15px;line-height:1.8;color:#f7f7fb;min-height:46px;margin-top:12px}
+#choices{margin-top:12px}.result{margin-top:12px;padding:13px;border-radius:14px;background:#182619;border:1px solid #33553b;color:#dfffe6;line-height:1.7;white-space:pre-wrap}.loading{opacity:.82;color:var(--gold)}
+.inputRow{position:fixed;left:50%;transform:translateX(-50%);bottom:0;max-width:430px;width:100%;display:flex;gap:8px;background:#0d1320;border-top:1px solid #1e293d;padding:10px}.inputRow input,textarea{flex:1;background:#151b27;border:1px solid #303a52;color:#fff;border-radius:12px;padding:11px;width:100%}.inputRow button{background:#2d2350;color:#fff;border:1px solid #6d5ccc;border-radius:12px;padding:0 14px}
+.statCard{background:#131b29;border:1px solid #2a344b;border-radius:14px;padding:12px;margin:8px 0;display:flex;justify-content:space-between}

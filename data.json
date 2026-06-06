@@ -1,0 +1,776 @@
+{
+  "version": "Z_GENERATION_AI_V8_RUNTIME",
+  "state": {
+    "date": "Z年1月 第1周",
+    "year": 1,
+    "month": 1,
+    "week": 1,
+    "actionsLeft": 3,
+    "currentLocation": "Z世界大地图",
+    "cash": 3000000000,
+    "brandTier": "小众",
+    "brandScore": 14500,
+    "company": "Deadline",
+    "mode": "AI驱动事业+恋爱+商战模拟",
+    "news": [],
+    "log": []
+  },
+  "places": {
+    "deadline": {
+      "name": "Deadline总部",
+      "type": "玩家基地",
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "工作室": {
+          "desc": "Deadline总部 · 工作室",
+          "mode": "ai",
+          "event": {
+            "title": "工作室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "创始人办公室": {
+          "desc": "Deadline总部 · 创始人办公室",
+          "mode": "ai",
+          "event": {
+            "title": "创始人办公室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "董事会议室": {
+          "desc": "Deadline总部 · 董事会议室",
+          "mode": "ai",
+          "event": {
+            "title": "董事会议室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "管理层办公区": {
+          "desc": "Deadline总部 · 管理层办公区",
+          "mode": "ai",
+          "event": {
+            "title": "管理层办公区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "普通办公区": {
+          "desc": "Deadline总部 · 普通办公区",
+          "mode": "ai",
+          "event": {
+            "title": "普通办公区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "样衣间": {
+          "desc": "Deadline总部 · 样衣间",
+          "mode": "ai",
+          "event": {
+            "title": "样衣间动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "顶楼露台": {
+          "desc": "Deadline总部 · 顶楼露台",
+          "mode": "ai",
+          "event": {
+            "title": "顶楼露台动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "公司咖啡厅": {
+          "desc": "Deadline总部 · 公司咖啡厅",
+          "mode": "ai",
+          "event": {
+            "title": "公司咖啡厅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "brand_union": {
+      "name": "品牌联盟中心",
+      "type": "公司总部聚集",
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "Aurora总部": {
+          "desc": "品牌联盟中心 · Aurora总部",
+          "mode": "ai",
+          "event": {
+            "title": "Aurora总部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "Nocturne总部": {
+          "desc": "品牌联盟中心 · Nocturne总部",
+          "mode": "ai",
+          "event": {
+            "title": "Nocturne总部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "Helix总部": {
+          "desc": "品牌联盟中心 · Helix总部",
+          "mode": "ai",
+          "event": {
+            "title": "Helix总部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "Vanta总部": {
+          "desc": "品牌联盟中心 · Vanta总部",
+          "mode": "ai",
+          "event": {
+            "title": "Vanta总部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "Eclipse总部": {
+          "desc": "品牌联盟中心 · Eclipse总部",
+          "mode": "ai",
+          "event": {
+            "title": "Eclipse总部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "Seraph总部": {
+          "desc": "品牌联盟中心 · Seraph总部",
+          "mode": "ai",
+          "event": {
+            "title": "Seraph总部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "takemall": {
+      "name": "TakeMall",
+      "type": "全球商业中心",
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "顶奢馆": {
+          "desc": "TakeMall · 顶奢馆",
+          "mode": "ai",
+          "event": {
+            "title": "顶奢馆动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "高奢馆": {
+          "desc": "TakeMall · 高奢馆",
+          "mode": "ai",
+          "event": {
+            "title": "高奢馆动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "新锐设计馆": {
+          "desc": "TakeMall · 新锐设计馆",
+          "mode": "ai",
+          "event": {
+            "title": "新锐设计馆动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "艺术展馆": {
+          "desc": "TakeMall · 艺术展馆",
+          "mode": "ai",
+          "event": {
+            "title": "艺术展馆动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "拍卖中心": {
+          "desc": "TakeMall · 拍卖中心",
+          "mode": "ai",
+          "event": {
+            "title": "拍卖中心动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "黑卡会员区": {
+          "desc": "TakeMall · 黑卡会员区",
+          "mode": "ai",
+          "event": {
+            "title": "黑卡会员区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "天台餐厅": {
+          "desc": "TakeMall · 天台餐厅",
+          "mode": "ai",
+          "event": {
+            "title": "天台餐厅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "blood": {
+      "name": "Blood酒吧",
+      "type": "权贵酒吧",
+      "eventPool": [
+        "资本交易",
+        "媒体偷拍",
+        "商业合作",
+        "投资谈判",
+        "地下赌博局"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "大厅": {
+          "desc": "Blood酒吧 · 大厅",
+          "mode": "ai",
+          "event": {
+            "title": "大厅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "卡座区": {
+          "desc": "Blood酒吧 · 卡座区",
+          "mode": "ai",
+          "event": {
+            "title": "卡座区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "VIP包厢": {
+          "desc": "Blood酒吧 · VIP包厢",
+          "mode": "ai",
+          "event": {
+            "title": "VIP包厢动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "Black Room": {
+          "desc": "Blood酒吧 · Black Room",
+          "mode": "ai",
+          "event": {
+            "title": "Black Room动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "地下酒窖": {
+          "desc": "Blood酒吧 · 地下酒窖",
+          "mode": "ai",
+          "event": {
+            "title": "地下酒窖动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "老板办公室": {
+          "desc": "Blood酒吧 · 老板办公室",
+          "mode": "ai",
+          "event": {
+            "title": "老板办公室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "moon": {
+      "name": "Moon River影院",
+      "type": "艺术影院",
+      "eventPool": [
+        "首映礼",
+        "导演沙龙",
+        "艺术投资",
+        "纪录片发布"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "主影厅": {
+          "desc": "Moon River影院 · 主影厅",
+          "mode": "ai",
+          "event": {
+            "title": "主影厅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "VIP影厅": {
+          "desc": "Moon River影院 · VIP影厅",
+          "mode": "ai",
+          "event": {
+            "title": "VIP影厅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "独立电影区": {
+          "desc": "Moon River影院 · 独立电影区",
+          "mode": "ai",
+          "event": {
+            "title": "独立电影区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "导演沙龙": {
+          "desc": "Moon River影院 · 导演沙龙",
+          "mode": "ai",
+          "event": {
+            "title": "导演沙龙动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "天台放映区": {
+          "desc": "Moon River影院 · 天台放映区",
+          "mode": "ai",
+          "event": {
+            "title": "天台放映区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "park": {
+      "name": "LifeLine公园",
+      "type": "城市公园",
+      "eventPool": [
+        "偶遇",
+        "散步交谈",
+        "灵感事件",
+        "私人会面"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "湖畔": {
+          "desc": "LifeLine公园 · 湖畔",
+          "mode": "ai",
+          "event": {
+            "title": "湖畔动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "玻璃温室": {
+          "desc": "LifeLine公园 · 玻璃温室",
+          "mode": "ai",
+          "event": {
+            "title": "玻璃温室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "长桥": {
+          "desc": "LifeLine公园 · 长桥",
+          "mode": "ai",
+          "event": {
+            "title": "长桥动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "草坪": {
+          "desc": "LifeLine公园 · 草坪",
+          "mode": "ai",
+          "event": {
+            "title": "草坪动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "夜跑区": {
+          "desc": "LifeLine公园 · 夜跑区",
+          "mode": "ai",
+          "event": {
+            "title": "夜跑区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "airport": {
+      "name": "Z国际机场",
+      "type": "交通枢纽",
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "国际航站楼": {
+          "desc": "国际机场 · 国际航站楼",
+          "mode": "ai",
+          "event": {
+            "title": "国际航站楼动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "VIP候机厅": {
+          "desc": "国际机场 · VIP候机厅",
+          "mode": "ai",
+          "event": {
+            "title": "VIP候机厅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "私人飞机区": {
+          "desc": "国际机场 · 私人飞机区",
+          "mode": "ai",
+          "event": {
+            "title": "私人飞机区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "fashion": {
+      "name": "Z Fashion Week",
+      "type": "时装周主场",
+      "eventPool": [
+        "主秀场活动",
+        "后台协调",
+        "媒体接待",
+        "买手考察",
+        "嘉宾互动"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "主秀场": {
+          "desc": "Z Fashion Week · 主秀场",
+          "mode": "ai",
+          "event": {
+            "title": "主秀场动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "后台": {
+          "desc": "Z Fashion Week · 后台",
+          "mode": "ai",
+          "event": {
+            "title": "后台动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "媒体区": {
+          "desc": "Z Fashion Week · 媒体区",
+          "mode": "ai",
+          "event": {
+            "title": "媒体区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "买手区": {
+          "desc": "Z Fashion Week · 买手区",
+          "mode": "ai",
+          "event": {
+            "title": "买手区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "嘉宾区": {
+          "desc": "Z Fashion Week · 嘉宾区",
+          "mode": "ai",
+          "event": {
+            "title": "嘉宾区动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "star": {
+      "name": "星光娱乐",
+      "type": "艺人系统中心",
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "艺人部": {
+          "desc": "星光娱乐 · 艺人部",
+          "mode": "ai",
+          "event": {
+            "title": "艺人部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "经纪部": {
+          "desc": "星光娱乐 · 经纪部",
+          "mode": "ai",
+          "event": {
+            "title": "经纪部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "宣传部": {
+          "desc": "星光娱乐 · 宣传部",
+          "mode": "ai",
+          "event": {
+            "title": "宣传部动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "练习生中心": {
+          "desc": "星光娱乐 · 练习生中心",
+          "mode": "ai",
+          "event": {
+            "title": "练习生中心动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "演员部": {
+          "desc": "电影/电视剧演员代言资源。",
+          "mode": "celebrity",
+          "event": {
+            "title": "演员部",
+            "text": "电影/电视剧演员代言资源。",
+            "choices": []
+          }
+        },
+        "歌手部": {
+          "desc": "曝光、舆论热度、演唱会资源。",
+          "mode": "celebrity",
+          "event": {
+            "title": "歌手部",
+            "text": "曝光、舆论热度、演唱会资源。",
+            "choices": []
+          }
+        },
+        "爱豆部": {
+          "desc": "强流量、高风险、粉圈战争。",
+          "mode": "celebrity",
+          "event": {
+            "title": "爱豆部",
+            "text": "强流量、高风险、粉圈战争。",
+            "choices": []
+          }
+        },
+        "超模部": {
+          "desc": "高级感、时尚影响力、秀场资源。",
+          "mode": "celebrity",
+          "event": {
+            "title": "超模部",
+            "text": "高级感、时尚影响力、秀场资源。",
+            "choices": []
+          }
+        }
+      }
+    },
+    "private": {
+      "name": "私人住宅区",
+      "type": "住宅区",
+      "eventPool": [
+        "普通事件",
+        "商业会议",
+        "社交交流"
+      ],
+      "npcSpawnRules": {
+        "wen_xubai": 50,
+        "qi_lin": 50,
+        "xie_chengyu": 50,
+        "pei_ji": 50,
+        "liu_anqi": 50,
+        "cheng_yixing": 50,
+        "liang_yu": 50
+      },
+      "sub": {
+        "万雾住宅": {
+          "desc": "私人住宅区 · 万雾住宅",
+          "mode": "ai",
+          "event": {
+            "title": "万雾住宅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "闻叙白住宅": {
+          "desc": "私人住宅区 · 闻叙白住宅",
+          "mode": "ai",
+          "event": {
+            "title": "闻叙白住宅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "顾知言住宅": {
+          "desc": "私人住宅区 · 顾知言住宅",
+          "mode": "ai",
+          "event": {
+            "title": "顾知言住宅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "谢承聿住宅": {
+          "desc": "私人住宅区 · 谢承聿住宅",
+          "mode": "ai",
+          "event": {
+            "title": "谢承聿住宅动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "祁临工作室": {
+          "desc": "私人住宅区 · 祁临工作室",
+          "mode": "ai",
+          "event": {
+            "title": "祁临工作室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "裴寂画室": {
+          "desc": "私人住宅区 · 裴寂画室",
+          "mode": "ai",
+          "event": {
+            "title": "裴寂画室动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "沈砚川摄影棚": {
+          "desc": "私人住宅区 · 沈砚川摄影棚",
+          "mode": "ai",
+          "event": {
+            "title": "沈砚川摄影棚动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        },
+        "林昼公寓": {
+          "desc": "私人住宅区 · 林昼公寓",
+          "mode": "ai",
+          "event": {
+            "title": "林昼公寓动态事件",
+            "text": "此处事件由AI根据Z世界数据库、公司状态和人物关系动态生成。",
+            "choices": []
+          }
+        }
+      }
+    }
+  },
+  "masterFile": "ZWDB_MASTER_V8_FINAL.json"
+}
